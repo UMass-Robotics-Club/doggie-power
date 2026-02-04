@@ -2524,7 +2524,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "05a89a54-e42b-45f5-b9e2-e1e14f6c7f47")
-		(property "Reference" "Coutx"
+		(property "Reference" "Coutx1"
 			(at 237.998 95.504 0)
 			(effects
 				(font
@@ -2569,6 +2569,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 233.68 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 233.68 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 233.68 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4b5b3551-f430-40ea-b09e-13640755132d")
 		)
@@ -2578,7 +2605,7 @@
 		(instances
 			(project ""
 				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/ccf07133-5d0c-4081-9a30-ebff06623cf2"
-					(reference "Coutx")
+					(reference "Coutx1")
 					(unit 1)
 				)
 			)
@@ -2593,7 +2620,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0e109a9f-5508-480b-9c18-780724e08ad1")
-		(property "Reference" "Cboot"
+		(property "Reference" "Cboot1"
 			(at 165.608 60.198 0)
 			(effects
 				(font
@@ -2638,6 +2665,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 166.37 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 166.37 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 166.37 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0c1fcdcb-9ef4-4bf4-8610-6566948e8a4d")
 		)
@@ -2647,7 +2701,7 @@
 		(instances
 			(project ""
 				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/ccf07133-5d0c-4081-9a30-ebff06623cf2"
-					(reference "Cboot")
+					(reference "Cboot1")
 					(unit 1)
 				)
 			)
@@ -2662,7 +2716,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "22542f2e-dd64-4408-be54-ff9d8fe129c3")
-		(property "Reference" "Cvcc"
+		(property "Reference" "Cvcc1"
 			(at 172.72 130.302 0)
 			(effects
 				(font
@@ -2707,6 +2761,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 168.91 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 168.91 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 168.91 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a5b48057-13ef-4c6a-9f5a-e958cea7cb50")
 		)
@@ -2716,7 +2797,7 @@
 		(instances
 			(project ""
 				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/ccf07133-5d0c-4081-9a30-ebff06623cf2"
-					(reference "Cvcc")
+					(reference "Cvcc1")
 					(unit 1)
 				)
 			)
@@ -2731,7 +2812,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2dddeedd-b712-4611-8eda-36aaa52e648f")
-		(property "Reference" "Rpgood"
+		(property "Reference" "Rpgood1"
 			(at 96.774 36.576 90)
 			(effects
 				(font
@@ -2774,6 +2855,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 96.52 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 96.52 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 96.52 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "51946621-9915-42e0-a5a0-51db7ccfd36a")
 		)
@@ -2783,7 +2891,7 @@
 		(instances
 			(project ""
 				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/ccf07133-5d0c-4081-9a30-ebff06623cf2"
-					(reference "Rpgood")
+					(reference "Rpgood1")
 					(unit 1)
 				)
 			)
@@ -2798,7 +2906,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "484dfafd-63bf-4e2e-a912-2c3d6b1fd6c1")
-		(property "Reference" "Cinx"
+		(property "Reference" "Cinx1"
 			(at 97.79 94.234 0)
 			(effects
 				(font
@@ -2843,6 +2951,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 92.71 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 92.71 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 92.71 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b0107781-c908-41e6-acb0-3edb7f5b80ef")
 		)
@@ -2852,7 +2987,7 @@
 		(instances
 			(project ""
 				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/ccf07133-5d0c-4081-9a30-ebff06623cf2"
-					(reference "Cinx")
+					(reference "Cinx1")
 					(unit 1)
 				)
 			)
@@ -2978,6 +3113,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 43.18 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 43.18 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 43.18 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c605265b-a145-46c2-95a6-ce7861ea595c")
 		)
@@ -3002,7 +3164,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "73dff92c-9e19-4e87-9e4a-e3223c91e8f2")
-		(property "Reference" "Rfbt"
+		(property "Reference" "Rfbt1"
 			(at 189.738 83.82 0)
 			(effects
 				(font
@@ -3047,6 +3209,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 186.69 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 186.69 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 186.69 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "47604875-0231-49ee-b905-19ec9bba3918")
 		)
@@ -3056,7 +3245,7 @@
 		(instances
 			(project ""
 				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/ccf07133-5d0c-4081-9a30-ebff06623cf2"
-					(reference "Rfbt")
+					(reference "Rfbt1")
 					(unit 1)
 				)
 			)
@@ -3071,7 +3260,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7490a560-0234-4c21-ba56-7c4b648ed911")
-		(property "Reference" "Cout"
+		(property "Reference" "Cout1"
 			(at 214.122 92.71 0)
 			(effects
 				(font
@@ -3116,6 +3305,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 209.55 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 209.55 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 209.55 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "bdc5d812-3742-4bbd-91f5-fccd3d9bf086")
 		)
@@ -3125,7 +3341,7 @@
 		(instances
 			(project ""
 				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/ccf07133-5d0c-4081-9a30-ebff06623cf2"
-					(reference "Cout")
+					(reference "Cout1")
 					(unit 1)
 				)
 			)
@@ -3206,7 +3422,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8ff43914-6fe0-45a7-bb37-8b400f39deea")
-		(property "Reference" "Rfbb"
+		(property "Reference" "Rfbb1"
 			(at 189.738 102.108 0)
 			(effects
 				(font
@@ -3251,6 +3467,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 186.69 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 186.69 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 186.69 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b8d7562b-a0f9-4a76-8ba2-ac4bf2056944")
 		)
@@ -3260,7 +3503,7 @@
 		(instances
 			(project ""
 				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/ccf07133-5d0c-4081-9a30-ebff06623cf2"
-					(reference "Rfbb")
+					(reference "Rfbb1")
 					(unit 1)
 				)
 			)
@@ -3312,6 +3555,33 @@
 		)
 		(property "Description" "5A synchronous buck regulator, 3.5..60Vin, 200kHz..500kHz switching frequency, CCM/DCM & PFM at light load, WQFN-30"
 			(at 211.836 138.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 146.05 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 146.05 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 146.05 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3430,7 +3700,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a230361a-ee4b-419d-9e5d-4abc68903959")
-		(property "Reference" "Cin"
+		(property "Reference" "Cin1"
 			(at 73.914 92.71 0)
 			(effects
 				(font
@@ -3475,6 +3745,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 71.12 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 71.12 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 71.12 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e334cd35-e23f-4cfb-819a-f3b4887043e9")
 		)
@@ -3484,7 +3781,7 @@
 		(instances
 			(project ""
 				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/ccf07133-5d0c-4081-9a30-ebff06623cf2"
-					(reference "Cin")
+					(reference "Cin1")
 					(unit 1)
 				)
 			)
@@ -3601,6 +3898,33 @@
 		)
 		(property "Description" "Inductor"
 			(at 187.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 187.96 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 187.96 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 187.96 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
