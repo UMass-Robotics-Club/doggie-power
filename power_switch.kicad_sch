@@ -4,6 +4,13 @@
 	(generator_version "9.0")
 	(uuid "81e606bd-bd70-4625-9206-ed6f5fd669d8")
 	(paper "A4")
+	(title_block
+		(title "High Side Power Switch")
+		(date "2026-02-04")
+		(rev "Rev 2.0.0")
+		(company "UMass Robotics")
+		(comment 4 "Niranjan Mathirajan")
+	)
 	(lib_symbols
 		(symbol "Device:C_Small"
 			(pin_numbers
@@ -3977,7 +3984,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 87.63 66.04 0)
 			(effects
 				(font
