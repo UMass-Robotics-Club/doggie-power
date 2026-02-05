@@ -1482,6 +1482,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 203.2 80.01)
@@ -1550,6 +1651,12 @@
 		(uuid "674fd27a-4873-4ae1-9265-2cc359d0e305")
 	)
 	(junction
+		(at 240.03 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "82a41500-defc-4474-99ea-81187666173b")
+	)
+	(junction
 		(at 143.51 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1603,6 +1710,14 @@
 		(color 0 0 0 0)
 		(uuid "fc852248-ce06-440c-882a-9294cc15141b")
 	)
+	(no_connect
+		(at 133.35 101.6)
+		(uuid "472928d7-7a22-47b2-b559-e6b5a5b99391")
+	)
+	(no_connect
+		(at 133.35 99.06)
+		(uuid "a8bbe850-48c6-4f04-83a9-857fc1a1f976")
+	)
 	(wire
 		(pts
 			(xy 132.08 113.03) (xy 132.08 125.73)
@@ -1622,6 +1737,16 @@
 			(type default)
 		)
 		(uuid "030baa0a-c883-49e7-a291-adce8b2c5235")
+	)
+	(wire
+		(pts
+			(xy 240.03 80.01) (xy 260.35 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04bd5240-212b-42dc-bb29-27717d528578")
 	)
 	(wire
 		(pts
@@ -1765,7 +1890,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 80.01) (xy 260.35 80.01)
+			(xy 233.68 80.01) (xy 240.03 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2354,7 +2479,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "05a89a54-e42b-45f5-b9e2-e1e14f6c7f47")
-		(property "Reference" "Coutx?"
+		(property "Reference" "Coutx1"
 			(at 237.998 95.504 0)
 			(effects
 				(font
@@ -2434,10 +2559,6 @@
 		)
 		(instances
 			(project "doggie_board"
-				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/4477bd81-3edf-4db0-9be9-c00964857c14"
-					(reference "Coutx?")
-					(unit 1)
-				)
 				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/ccf07133-5d0c-4081-9a30-ebff06623cf2"
 					(reference "Coutx1")
 					(unit 1)
@@ -2454,7 +2575,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0e109a9f-5508-480b-9c18-780724e08ad1")
-		(property "Reference" "Cboot?"
+		(property "Reference" "Cboot1"
 			(at 165.608 60.198 0)
 			(effects
 				(font
@@ -2534,10 +2655,6 @@
 		)
 		(instances
 			(project "doggie_board"
-				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/4477bd81-3edf-4db0-9be9-c00964857c14"
-					(reference "Cboot?")
-					(unit 1)
-				)
 				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/ccf07133-5d0c-4081-9a30-ebff06623cf2"
 					(reference "Cboot1")
 					(unit 1)
@@ -2554,7 +2671,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "22542f2e-dd64-4408-be54-ff9d8fe129c3")
-		(property "Reference" "Cvcc?"
+		(property "Reference" "Cvcc1"
 			(at 165.1 108.712 0)
 			(effects
 				(font
@@ -2634,10 +2751,6 @@
 		)
 		(instances
 			(project "doggie_board"
-				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/4477bd81-3edf-4db0-9be9-c00964857c14"
-					(reference "Cvcc?")
-					(unit 1)
-				)
 				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/ccf07133-5d0c-4081-9a30-ebff06623cf2"
 					(reference "Cvcc1")
 					(unit 1)
@@ -2654,7 +2767,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2dddeedd-b712-4611-8eda-36aaa52e648f")
-		(property "Reference" "Rpgood?"
+		(property "Reference" "Rpgood1"
 			(at 128.524 61.976 90)
 			(effects
 				(font
@@ -2732,10 +2845,6 @@
 		)
 		(instances
 			(project "doggie_board"
-				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/4477bd81-3edf-4db0-9be9-c00964857c14"
-					(reference "Rpgood?")
-					(unit 1)
-				)
 				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/ccf07133-5d0c-4081-9a30-ebff06623cf2"
 					(reference "Rpgood1")
 					(unit 1)
@@ -2752,7 +2861,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "484dfafd-63bf-4e2e-a912-2c3d6b1fd6c1")
-		(property "Reference" "Cinx?"
+		(property "Reference" "Cinx1"
 			(at 97.79 94.234 0)
 			(effects
 				(font
@@ -2832,10 +2941,6 @@
 		)
 		(instances
 			(project "doggie_board"
-				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/4477bd81-3edf-4db0-9be9-c00964857c14"
-					(reference "Cinx?")
-					(unit 1)
-				)
 				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/ccf07133-5d0c-4081-9a30-ebff06623cf2"
 					(reference "Cinx1")
 					(unit 1)
@@ -2853,7 +2958,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4af483d2-7877-4707-abf6-708de24384dc")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR011"
 			(at 180.34 93.98 0)
 			(effects
 				(font
@@ -2902,10 +3007,6 @@
 		)
 		(instances
 			(project "doggie_board"
-				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/4477bd81-3edf-4db0-9be9-c00964857c14"
-					(reference "#PWR?")
-					(unit 1)
-				)
 				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/ccf07133-5d0c-4081-9a30-ebff06623cf2"
 					(reference "#PWR011")
 					(unit 1)
@@ -2922,7 +3023,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "73dff92c-9e19-4e87-9e4a-e3223c91e8f2")
-		(property "Reference" "Rfbt?"
+		(property "Reference" "Rfbt1"
 			(at 189.738 83.82 0)
 			(effects
 				(font
@@ -3002,10 +3103,6 @@
 		)
 		(instances
 			(project "doggie_board"
-				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/4477bd81-3edf-4db0-9be9-c00964857c14"
-					(reference "Rfbt?")
-					(unit 1)
-				)
 				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/ccf07133-5d0c-4081-9a30-ebff06623cf2"
 					(reference "Rfbt1")
 					(unit 1)
@@ -3022,7 +3119,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7490a560-0234-4c21-ba56-7c4b648ed911")
-		(property "Reference" "Cout?"
+		(property "Reference" "Cout1"
 			(at 214.122 92.71 0)
 			(effects
 				(font
@@ -3102,10 +3199,6 @@
 		)
 		(instances
 			(project "doggie_board"
-				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/4477bd81-3edf-4db0-9be9-c00964857c14"
-					(reference "Cout?")
-					(unit 1)
-				)
 				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/ccf07133-5d0c-4081-9a30-ebff06623cf2"
 					(reference "Cout1")
 					(unit 1)
@@ -3123,7 +3216,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81bd33b6-f2c9-4acb-a3e8-958739bb4c55")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR013"
 			(at 161.29 123.19 0)
 			(effects
 				(font
@@ -3172,10 +3265,6 @@
 		)
 		(instances
 			(project "doggie_board"
-				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/4477bd81-3edf-4db0-9be9-c00964857c14"
-					(reference "#PWR?")
-					(unit 1)
-				)
 				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/ccf07133-5d0c-4081-9a30-ebff06623cf2"
 					(reference "#PWR013")
 					(unit 1)
@@ -3192,7 +3281,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8ff43914-6fe0-45a7-bb37-8b400f39deea")
-		(property "Reference" "Rfbb?"
+		(property "Reference" "Rfbb1"
 			(at 189.738 102.108 0)
 			(effects
 				(font
@@ -3272,10 +3361,6 @@
 		)
 		(instances
 			(project "doggie_board"
-				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/4477bd81-3edf-4db0-9be9-c00964857c14"
-					(reference "Rfbb?")
-					(unit 1)
-				)
 				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/ccf07133-5d0c-4081-9a30-ebff06623cf2"
 					(reference "Rfbb1")
 					(unit 1)
@@ -3293,7 +3378,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "903d1df4-c59d-4030-ad43-1c827194f4b7")
-		(property "Reference" "U?"
+		(property "Reference" "U2"
 			(at 146.05 73.66 0)
 			(effects
 				(font
@@ -3458,10 +3543,6 @@
 		)
 		(instances
 			(project "doggie_board"
-				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/4477bd81-3edf-4db0-9be9-c00964857c14"
-					(reference "U?")
-					(unit 1)
-				)
 				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/ccf07133-5d0c-4081-9a30-ebff06623cf2"
 					(reference "U2")
 					(unit 1)
@@ -3479,7 +3560,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e6440ac-17bd-40c9-8cae-6552ddea99c9")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR07"
 			(at 260.35 83.82 0)
 			(effects
 				(font
@@ -3528,10 +3609,6 @@
 		)
 		(instances
 			(project "doggie_board"
-				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/4477bd81-3edf-4db0-9be9-c00964857c14"
-					(reference "#PWR?")
-					(unit 1)
-				)
 				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/ccf07133-5d0c-4081-9a30-ebff06623cf2"
 					(reference "#PWR07")
 					(unit 1)
@@ -3548,7 +3625,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a230361a-ee4b-419d-9e5d-4abc68903959")
-		(property "Reference" "Cin?"
+		(property "Reference" "Cin1"
 			(at 73.914 92.71 0)
 			(effects
 				(font
@@ -3628,12 +3705,74 @@
 		)
 		(instances
 			(project "doggie_board"
-				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/4477bd81-3edf-4db0-9be9-c00964857c14"
-					(reference "Cin?")
-					(unit 1)
-				)
 				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/ccf07133-5d0c-4081-9a30-ebff06623cf2"
 					(reference "Cin1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 240.03 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aabbb395-660b-4c72-a026-f8e645209b22")
+		(property "Reference" "#FLG03"
+			(at 240.03 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 240.03 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.03 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 240.03 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 240.03 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed0dca29-0879-4b86-ba2f-80772514978a")
+		)
+		(instances
+			(project ""
+				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/ccf07133-5d0c-4081-9a30-ebff06623cf2"
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -3649,7 +3788,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3d96e35-2656-4c85-9c36-59d62199b7d7")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR014"
 			(at 149.86 132.08 0)
 			(effects
 				(font
@@ -3698,10 +3837,6 @@
 		)
 		(instances
 			(project "doggie_board"
-				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/4477bd81-3edf-4db0-9be9-c00964857c14"
-					(reference "#PWR?")
-					(unit 1)
-				)
 				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/ccf07133-5d0c-4081-9a30-ebff06623cf2"
 					(reference "#PWR014")
 					(unit 1)
@@ -3718,7 +3853,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fc1c273d-120d-42ca-a495-52c908f82e48")
-		(property "Reference" "L?"
+		(property "Reference" "L1"
 			(at 187.96 60.96 90)
 			(effects
 				(font
@@ -3796,10 +3931,6 @@
 		)
 		(instances
 			(project "doggie_board"
-				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/4477bd81-3edf-4db0-9be9-c00964857c14"
-					(reference "L?")
-					(unit 1)
-				)
 				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/ccf07133-5d0c-4081-9a30-ebff06623cf2"
 					(reference "L1")
 					(unit 1)
