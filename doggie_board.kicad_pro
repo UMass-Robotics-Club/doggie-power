@@ -724,19 +724,15 @@
     ],
     [
       "7e8758ce-fdca-4bb6-a847-f546f03772b9",
-      "power_switch"
+      "High Side Power Switch"
     ],
     [
       "ccf07133-5d0c-4081-9a30-ebff06623cf2",
-      "Buck_Converter"
+      "12v Buck Converter"
     ],
     [
       "64e74d8d-15e7-49a6-a99b-9f52cddf6628",
-      "Buck_Converter_2"
-    ],
-    [
-      "4477bd81-3edf-4db0-9be9-c00964857c14",
-      "Buck_Converter3(Linear)"
+      "5v Buck Converter"
     ]
   ],
   "text_variables": {}
