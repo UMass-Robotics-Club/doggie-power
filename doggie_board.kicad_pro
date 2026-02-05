@@ -733,6 +733,10 @@
     [
       "64e74d8d-15e7-49a6-a99b-9f52cddf6628",
       "Buck_Converter_2"
+    ],
+    [
+      "4477bd81-3edf-4db0-9be9-c00964857c14",
+      "Buck_Converter3(Linear)"
     ]
   ],
   "text_variables": {}
