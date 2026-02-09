@@ -1,7 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "2026-02-04_21-30-02")(type "KiCad")(uri "/home/niranjan/documents/robotics/doggie-power/symbols/2026-02-04_21-30-02.kicad_sym")(options "")(descr ""))
-  (lib (name "TPS2490DGSR")(type "KiCad")(uri "/home/niranjan/documents/robotics/doggie-power/symbols/TPS2490DGSR.kicad_sym")(options "")(descr ""))
-  (lib (name "XT90PW-M")(type "KiCad")(uri "/home/niranjan/documents/robotics/doggie-power/symbols/XT90PW-M.kicad_sym")(options "")(descr ""))
-  (lib (name "PSMN3R7-100BSEJ")(type "KiCad")(uri "/home/niranjan/documents/robotics/doggie-power/symbols/PSMN3R7-100BSEJ.kicad_sym")(options "")(descr ""))
-)
