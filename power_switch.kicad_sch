@@ -2685,6 +2685,16 @@
 		)
 		(uuid "fe6e5cb8-5ec9-488c-9d65-0323c8098be4")
 	)
+	(label "drain"
+		(at 101.6 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "01df465c-123d-4b36-bc7e-e98fa1149efb")
+	)
 	(label "gate_line"
 		(at 104.14 34.29 0)
 		(effects
