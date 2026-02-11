@@ -2456,7 +2456,7 @@
 		)
 		(uuid "ff97036b-da83-40ce-920b-8e71a1ab4933")
 	)
-	(global_label "V_switched"
+	(global_label "48v_switched"
 		(shape input)
 		(at 31.75 45.72 180)
 		(fields_autoplaced yes)
@@ -2466,9 +2466,9 @@
 			)
 			(justify right)
 		)
-		(uuid "b13658e1-aa4b-4e10-a293-d809b6214af1")
+		(uuid "fb3f8710-81d4-4d17-a4dc-e216b7cdd4dc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 18.5443 45.72 0)
+			(at 16.2463 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
