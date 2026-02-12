@@ -3210,7 +3210,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "vssop:RES_PSR500_ROM"
 			(at 76.2 32.258 90)
 			(effects
 				(font
@@ -3304,7 +3304,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SMF48A"
+		(property "Value" "SMC5K51A-M3/I"
 			(at 69.85 41.9099 90)
 			(effects
 				(font
@@ -3313,7 +3313,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm_ThermalVias"
+		(property "Footprint" "Diode_SMD:D_SMB-SMC_Universal_Handsoldering"
 			(at 62.23 40.64 0)
 			(effects
 				(font
