@@ -9,6 +9,7 @@
 		(date "2026-02-04")
 		(rev "Rev 1.0.0")
 		(company "UMass Robotics")
+		(comment 3 "Alperen Ozpolat")
 		(comment 4 "Niranjan Mathirajan")
 	)
 	(lib_symbols
@@ -2775,7 +2776,7 @@
 				)
 			)
 		)
-		(property "Value" "100kOhm"
+		(property "Value" "100k"
 			(at 130.556 70.358 90)
 			(effects
 				(font
@@ -3032,7 +3033,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100kOhm"
+		(property "Value" "100k"
 			(at 190.5 88.646 0)
 			(effects
 				(font
@@ -3290,7 +3291,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "9.09kOhm"
+		(property "Value" "9.09k"
 			(at 190.754 107.696 0)
 			(effects
 				(font

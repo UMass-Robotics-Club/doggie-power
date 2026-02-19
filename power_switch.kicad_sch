@@ -2749,7 +2749,7 @@
 				)
 			)
 		)
-		(property "Value" "1kR"
+		(property "Value" "1k"
 			(at 187.96 31.75 90)
 			(effects
 				(font
@@ -2851,7 +2851,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "18kR"
+		(property "Value" "18k"
 			(at 63.5 76.1999 0)
 			(effects
 				(font
@@ -2954,7 +2954,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10kR"
+		(property "Value" "10k"
 			(at 31.75 63.4999 0)
 			(effects
 				(font
@@ -3202,7 +3202,7 @@
 				)
 			)
 		)
-		(property "Value" "0.2mR, 15W"
+		(property "Value" "0.2m, 15W"
 			(at 76.2 26.67 90)
 			(effects
 				(font
@@ -3210,7 +3210,7 @@
 				)
 			)
 		)
-		(property "Footprint" "vssop:RES_PSR500_ROM"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 76.2 32.258 90)
 			(effects
 				(font
@@ -3304,7 +3304,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SMC5K51A-M3/I"
+		(property "Value" "SMF48A"
 			(at 69.85 41.9099 90)
 			(effects
 				(font
@@ -3313,7 +3313,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMB-SMC_Universal_Handsoldering"
+		(property "Footprint" "Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm_ThermalVias"
 			(at 62.23 40.64 0)
 			(effects
 				(font
@@ -3871,7 +3871,7 @@
 				)
 			)
 		)
-		(property "Value" "10R"
+		(property "Value" "10"
 			(at 95.25 31.75 90)
 			(effects
 				(font
@@ -4775,7 +4775,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100kR"
+		(property "Value" "100k"
 			(at 63.5 67.3099 0)
 			(effects
 				(font
@@ -5199,7 +5199,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "212kR"
+		(property "Value" "212k"
 			(at 31.75 55.8799 0)
 			(effects
 				(font

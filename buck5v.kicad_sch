@@ -9,6 +9,7 @@
 		(date "2026-02-04")
 		(rev "Rev 1.0.0")
 		(company "UMass Robotics")
+		(comment 3 "Alperen Ozpolat")
 		(comment 4 "Niranjan Mathirajan")
 	)
 	(lib_symbols
@@ -1603,6 +1604,12 @@
 		(uuid "244efb5f-59b5-4fac-b204-b6fb3bfa4dc7")
 	)
 	(junction
+		(at 43.18 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3dd3ccc5-11b7-4a42-a6b0-756a70d555d0")
+	)
+	(junction
 		(at 109.22 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2342,6 +2349,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 45.72) (xy 53.34 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df105d1b-7af1-499b-b8c7-b4fdeecab5a3")
+	)
+	(wire
+		(pts
 			(xy 80.01 33.02) (xy 80.01 63.5)
 		)
 		(stroke
@@ -2402,7 +2419,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 45.72) (xy 53.34 45.72)
+			(xy 31.75 45.72) (xy 43.18 45.72)
 		)
 		(stroke
 			(width 0)
@@ -3825,7 +3842,7 @@
 				)
 			)
 		)
-		(property "Value" "100kOhm"
+		(property "Value" "100k"
 			(at 91.186 37.338 90)
 			(effects
 				(font
@@ -3920,7 +3937,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100kOhm"
+		(property "Value" "100k"
 			(at 151.13 55.626 0)
 			(effects
 				(font
@@ -3993,6 +4010,72 @@
 			(project "doggie_board"
 				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/64e74d8d-15e7-49a6-a99b-9f52cddf6628"
 					(reference "Rfbt2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 43.18 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "efdd1a06-85c2-409b-a3d3-85cc27bc0b34")
+		(property "Reference" "#FLG02"
+			(at 43.18 43.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 43.18 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 43.18 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "db7c77a9-62d0-47d5-9722-830345f70f58")
+		)
+		(instances
+			(project "doggie_board"
+				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/64e74d8d-15e7-49a6-a99b-9f52cddf6628"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)

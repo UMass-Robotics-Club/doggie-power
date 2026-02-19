@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "89ae93ea-9af2-47dc-9987-b4e76d61a778")
 	(paper "A4")
+	(title_block
+		(title "Connectors")
+		(company "UMass Robotics")
+		(comment 2 "Niranjan Mathirajan")
+		(comment 3 "Alperen Ozpolat")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
