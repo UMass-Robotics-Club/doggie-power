@@ -444,6 +444,12 @@
 					(unit 1)
 				)
 			)
+			(project "connectors"
+				(path "/89ae93ea-9af2-47dc-9987-b4e76d61a778"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -510,6 +516,12 @@
 					(unit 1)
 				)
 			)
+			(project "connectors"
+				(path "/89ae93ea-9af2-47dc-9987-b4e76d61a778"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -573,6 +585,12 @@
 			(project "doggie_board"
 				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/f752ec70-f478-4de6-b067-5094303e1e2f"
 					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+			(project "connectors"
+				(path "/89ae93ea-9af2-47dc-9987-b4e76d61a778"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -646,6 +664,12 @@
 					(unit 1)
 				)
 			)
+			(project "connectors"
+				(path "/89ae93ea-9af2-47dc-9987-b4e76d61a778"
+					(reference "J5V?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -712,6 +736,12 @@
 					(unit 1)
 				)
 			)
+			(project "connectors"
+				(path "/89ae93ea-9af2-47dc-9987-b4e76d61a778"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -742,7 +772,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "XT30PW-M:AMASS_XT30PW-M"
+		(property "Footprint" "Connector_AMASS:AMASS_XT30PW-F_1x02_P2.50mm_Horizontal"
 			(at 104.14 161.29 0)
 			(effects
 				(font
@@ -779,6 +809,12 @@
 			(project "doggie_board"
 				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/f752ec70-f478-4de6-b067-5094303e1e2f"
 					(reference "J5V9")
+					(unit 1)
+				)
+			)
+			(project "connectors"
+				(path "/89ae93ea-9af2-47dc-9987-b4e76d61a778"
+					(reference "J5V?")
 					(unit 1)
 				)
 			)
@@ -848,6 +884,12 @@
 					(unit 1)
 				)
 			)
+			(project "connectors"
+				(path "/89ae93ea-9af2-47dc-9987-b4e76d61a778"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -914,6 +956,12 @@
 					(unit 1)
 				)
 			)
+			(project "connectors"
+				(path "/89ae93ea-9af2-47dc-9987-b4e76d61a778"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -944,7 +992,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "XT30PW-M:AMASS_XT30PW-M"
+		(property "Footprint" "Connector_AMASS:AMASS_XT30PW-F_1x02_P2.50mm_Horizontal"
 			(at 133.35 161.29 0)
 			(effects
 				(font
@@ -981,6 +1029,12 @@
 			(project "doggie_board"
 				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/f752ec70-f478-4de6-b067-5094303e1e2f"
 					(reference "J5V14")
+					(unit 1)
+				)
+			)
+			(project "connectors"
+				(path "/89ae93ea-9af2-47dc-9987-b4e76d61a778"
+					(reference "J5V?")
 					(unit 1)
 				)
 			)
@@ -1050,6 +1104,84 @@
 					(unit 1)
 				)
 			)
+			(project "connectors"
+				(path "/89ae93ea-9af2-47dc-9987-b4e76d61a778"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 156.21 157.48 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "27b3c25e-fbed-4c2b-94e6-95f318e0b60c")
+		(property "Reference" "#PWR0107"
+			(at 156.21 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 156.21 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 156.21 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3212db7a-1baa-408b-9d6e-f85e642440e0")
+		)
+		(instances
+			(project "doggie_board"
+				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/f752ec70-f478-4de6-b067-5094303e1e2f"
+					(reference "#PWR0107")
+					(unit 1)
+				)
+			)
+			(project "connectors"
+				(path "/89ae93ea-9af2-47dc-9987-b4e76d61a778"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1080,7 +1212,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "XT30PW-M:AMASS_XT30PW-M"
+		(property "Footprint" "Connector_AMASS:AMASS_XT30U-F_1x02_P5.0mm_Vertical"
 			(at 160.02 130.81 0)
 			(effects
 				(font
@@ -1120,6 +1252,12 @@
 					(unit 1)
 				)
 			)
+			(project "connectors"
+				(path "/89ae93ea-9af2-47dc-9987-b4e76d61a778"
+					(reference "J5V?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1150,7 +1288,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "XT30PW-M:AMASS_XT30PW-M"
+		(property "Footprint" "Connector_AMASS:AMASS_XT30PW-F_1x02_P2.50mm_Horizontal"
 			(at 133.35 146.05 0)
 			(effects
 				(font
@@ -1187,6 +1325,88 @@
 			(project "doggie_board"
 				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/f752ec70-f478-4de6-b067-5094303e1e2f"
 					(reference "J5V13")
+					(unit 1)
+				)
+			)
+			(project "connectors"
+				(path "/89ae93ea-9af2-47dc-9987-b4e76d61a778"
+					(reference "J5V?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 158.75 162.56 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2cf84da4-1ae0-44c9-bf0b-e90f82082ce3")
+		(property "Reference" "J5V20"
+			(at 161.29 161.2899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 161.29 163.8299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_AMASS:AMASS_XT30U-F_1x02_P5.0mm_Vertical"
+			(at 158.75 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 158.75 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "46cb3491-86fb-44f9-89d9-9ceced776a76")
+		)
+		(pin "2"
+			(uuid "ccaf60ea-1d5e-4354-be8a-cf7c663dc26d")
+		)
+		(instances
+			(project "doggie_board"
+				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/f752ec70-f478-4de6-b067-5094303e1e2f"
+					(reference "J5V20")
+					(unit 1)
+				)
+			)
+			(project "connectors"
+				(path "/89ae93ea-9af2-47dc-9987-b4e76d61a778"
+					(reference "J5V2")
 					(unit 1)
 				)
 			)
@@ -1256,6 +1476,12 @@
 					(unit 1)
 				)
 			)
+			(project "connectors"
+				(path "/89ae93ea-9af2-47dc-9987-b4e76d61a778"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1319,6 +1545,12 @@
 			(project "doggie_board"
 				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/f752ec70-f478-4de6-b067-5094303e1e2f"
 					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+			(project "connectors"
+				(path "/89ae93ea-9af2-47dc-9987-b4e76d61a778"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -1392,6 +1624,160 @@
 					(unit 1)
 				)
 			)
+			(project "connectors"
+				(path "/89ae93ea-9af2-47dc-9987-b4e76d61a778"
+					(reference "J5V?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 157.48 177.8 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "445fb69d-603b-4007-bbf3-782e5acd3a23")
+		(property "Reference" "J5V19"
+			(at 160.02 176.5299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 160.02 179.0699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_AMASS:AMASS_XT30U-F_1x02_P5.0mm_Vertical"
+			(at 157.48 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 157.48 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7692de44-c85e-49d5-88dc-a3ed0e9d276b")
+		)
+		(pin "2"
+			(uuid "850d12b7-2166-4d3c-b99f-8b2b6dc8c893")
+		)
+		(instances
+			(project "doggie_board"
+				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/f752ec70-f478-4de6-b067-5094303e1e2f"
+					(reference "J5V19")
+					(unit 1)
+				)
+			)
+			(project "connectors"
+				(path "/89ae93ea-9af2-47dc-9987-b4e76d61a778"
+					(reference "J5V1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 158.75 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "44fb636f-b930-4fe1-aa6b-87ccec9e0454")
+		(property "Reference" "#PWR0106"
+			(at 158.75 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+48V"
+			(at 158.75 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 158.75 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "141b839b-2e77-46cc-91a2-81229191116e")
+		)
+		(instances
+			(project "doggie_board"
+				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/f752ec70-f478-4de6-b067-5094303e1e2f"
+					(reference "#PWR0106")
+					(unit 1)
+				)
+			)
+			(project "connectors"
+				(path "/89ae93ea-9af2-47dc-9987-b4e76d61a778"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1458,6 +1844,12 @@
 					(unit 1)
 				)
 			)
+			(project "connectors"
+				(path "/89ae93ea-9af2-47dc-9987-b4e76d61a778"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1521,6 +1913,12 @@
 			(project "doggie_board"
 				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/f752ec70-f478-4de6-b067-5094303e1e2f"
 					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+			(project "connectors"
+				(path "/89ae93ea-9af2-47dc-9987-b4e76d61a778"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -1594,6 +1992,12 @@
 					(unit 1)
 				)
 			)
+			(project "connectors"
+				(path "/89ae93ea-9af2-47dc-9987-b4e76d61a778"
+					(reference "J5V?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1657,6 +2061,12 @@
 			(project "doggie_board"
 				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/f752ec70-f478-4de6-b067-5094303e1e2f"
 					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+			(project "connectors"
+				(path "/89ae93ea-9af2-47dc-9987-b4e76d61a778"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -1726,6 +2136,12 @@
 					(unit 1)
 				)
 			)
+			(project "connectors"
+				(path "/89ae93ea-9af2-47dc-9987-b4e76d61a778"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1756,7 +2172,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "XT30PW-M:AMASS_XT30PW-M"
+		(property "Footprint" "Connector_AMASS:AMASS_XT30PW-F_1x02_P2.50mm_Horizontal"
 			(at 133.35 113.03 0)
 			(effects
 				(font
@@ -1793,6 +2209,12 @@
 			(project "doggie_board"
 				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/f752ec70-f478-4de6-b067-5094303e1e2f"
 					(reference "J5V11")
+					(unit 1)
+				)
+			)
+			(project "connectors"
+				(path "/89ae93ea-9af2-47dc-9987-b4e76d61a778"
+					(reference "J5V?")
 					(unit 1)
 				)
 			)
@@ -1862,6 +2284,12 @@
 					(unit 1)
 				)
 			)
+			(project "connectors"
+				(path "/89ae93ea-9af2-47dc-9987-b4e76d61a778"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1925,6 +2353,12 @@
 			(project "doggie_board"
 				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/f752ec70-f478-4de6-b067-5094303e1e2f"
 					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+			(project "connectors"
+				(path "/89ae93ea-9af2-47dc-9987-b4e76d61a778"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -1994,6 +2428,12 @@
 					(unit 1)
 				)
 			)
+			(project "connectors"
+				(path "/89ae93ea-9af2-47dc-9987-b4e76d61a778"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2057,6 +2497,12 @@
 			(project ""
 				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/f752ec70-f478-4de6-b067-5094303e1e2f"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+			(project "connectors"
+				(path "/89ae93ea-9af2-47dc-9987-b4e76d61a778"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -2130,6 +2576,12 @@
 					(unit 1)
 				)
 			)
+			(project "connectors"
+				(path "/89ae93ea-9af2-47dc-9987-b4e76d61a778"
+					(reference "J5V?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2160,7 +2612,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "XT30PW-M:AMASS_XT30PW-M"
+		(property "Footprint" "Connector_AMASS:AMASS_XT30U-F_1x02_P5.0mm_Vertical"
 			(at 133.35 176.53 0)
 			(effects
 				(font
@@ -2197,6 +2649,12 @@
 			(project "doggie_board"
 				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/f752ec70-f478-4de6-b067-5094303e1e2f"
 					(reference "J5V15")
+					(unit 1)
+				)
+			)
+			(project "connectors"
+				(path "/89ae93ea-9af2-47dc-9987-b4e76d61a778"
+					(reference "J5V?")
 					(unit 1)
 				)
 			)
@@ -2266,6 +2724,12 @@
 					(unit 1)
 				)
 			)
+			(project "connectors"
+				(path "/89ae93ea-9af2-47dc-9987-b4e76d61a778"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2329,6 +2793,12 @@
 			(project "doggie_board"
 				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/f752ec70-f478-4de6-b067-5094303e1e2f"
 					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+			(project "connectors"
+				(path "/89ae93ea-9af2-47dc-9987-b4e76d61a778"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -2402,6 +2872,12 @@
 					(unit 1)
 				)
 			)
+			(project "connectors"
+				(path "/89ae93ea-9af2-47dc-9987-b4e76d61a778"
+					(reference "J5V?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2468,6 +2944,12 @@
 					(unit 1)
 				)
 			)
+			(project "connectors"
+				(path "/89ae93ea-9af2-47dc-9987-b4e76d61a778"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2531,6 +3013,12 @@
 			(project "doggie_board"
 				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/f752ec70-f478-4de6-b067-5094303e1e2f"
 					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+			(project "connectors"
+				(path "/89ae93ea-9af2-47dc-9987-b4e76d61a778"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -2604,6 +3092,12 @@
 					(unit 1)
 				)
 			)
+			(project "connectors"
+				(path "/89ae93ea-9af2-47dc-9987-b4e76d61a778"
+					(reference "J5V?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2670,6 +3164,12 @@
 					(unit 1)
 				)
 			)
+			(project "connectors"
+				(path "/89ae93ea-9af2-47dc-9987-b4e76d61a778"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2700,7 +3200,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "XT30PW-M:AMASS_XT30PW-M"
+		(property "Footprint" "Connector_AMASS:AMASS_XT30PW-F_1x02_P2.50mm_Horizontal"
 			(at 133.35 129.54 0)
 			(effects
 				(font
@@ -2740,6 +3240,12 @@
 					(unit 1)
 				)
 			)
+			(project "connectors"
+				(path "/89ae93ea-9af2-47dc-9987-b4e76d61a778"
+					(reference "J5V?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2770,7 +3276,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "XT30PW-M:AMASS_XT30PW-M"
+		(property "Footprint" "Connector_AMASS:AMASS_XT30U-F_1x02_P5.0mm_Vertical"
 			(at 160.02 113.03 0)
 			(effects
 				(font
@@ -2807,6 +3313,12 @@
 			(project "doggie_board"
 				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/f752ec70-f478-4de6-b067-5094303e1e2f"
 					(reference "J5V16")
+					(unit 1)
+				)
+			)
+			(project "connectors"
+				(path "/89ae93ea-9af2-47dc-9987-b4e76d61a778"
+					(reference "J5V?")
 					(unit 1)
 				)
 			)
@@ -2880,6 +3392,84 @@
 					(unit 1)
 				)
 			)
+			(project "connectors"
+				(path "/89ae93ea-9af2-47dc-9987-b4e76d61a778"
+					(reference "J5V?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 157.48 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a88139b1-eed1-4c14-b71d-159061a9fe1c")
+		(property "Reference" "#PWR0105"
+			(at 157.48 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+48V"
+			(at 157.48 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 157.48 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "80f686df-88fa-49c0-89d6-de44891df07e")
+		)
+		(instances
+			(project "doggie_board"
+				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/f752ec70-f478-4de6-b067-5094303e1e2f"
+					(reference "#PWR0105")
+					(unit 1)
+				)
+			)
+			(project "connectors"
+				(path "/89ae93ea-9af2-47dc-9987-b4e76d61a778"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2946,6 +3536,12 @@
 					(unit 1)
 				)
 			)
+			(project "connectors"
+				(path "/89ae93ea-9af2-47dc-9987-b4e76d61a778"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2976,7 +3572,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "XT30PW-M:AMASS_XT30PW-M"
+		(property "Footprint" "Connector_AMASS:AMASS_XT30PW-F_1x02_P2.50mm_Horizontal"
 			(at 102.87 175.26 0)
 			(effects
 				(font
@@ -3013,6 +3609,12 @@
 			(project "doggie_board"
 				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/f752ec70-f478-4de6-b067-5094303e1e2f"
 					(reference "J5V10")
+					(unit 1)
+				)
+			)
+			(project "connectors"
+				(path "/89ae93ea-9af2-47dc-9987-b4e76d61a778"
+					(reference "J5V?")
 					(unit 1)
 				)
 			)
@@ -3082,6 +3684,12 @@
 					(unit 1)
 				)
 			)
+			(project "connectors"
+				(path "/89ae93ea-9af2-47dc-9987-b4e76d61a778"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3145,6 +3753,84 @@
 			(project "doggie_board"
 				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/f752ec70-f478-4de6-b067-5094303e1e2f"
 					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+			(project "connectors"
+				(path "/89ae93ea-9af2-47dc-9987-b4e76d61a778"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 154.94 172.72 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d08f6257-7e31-4dfa-a22c-bdffcdcfc3fc")
+		(property "Reference" "#PWR0108"
+			(at 154.94 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 154.94 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 154.94 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dad35085-16d4-4f00-af67-d067508c5aea")
+		)
+		(instances
+			(project "doggie_board"
+				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/f752ec70-f478-4de6-b067-5094303e1e2f"
+					(reference "#PWR0108")
+					(unit 1)
+				)
+			)
+			(project "connectors"
+				(path "/89ae93ea-9af2-47dc-9987-b4e76d61a778"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -3214,6 +3900,12 @@
 					(unit 1)
 				)
 			)
+			(project "connectors"
+				(path "/89ae93ea-9af2-47dc-9987-b4e76d61a778"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3277,6 +3969,12 @@
 			(project "doggie_board"
 				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/f752ec70-f478-4de6-b067-5094303e1e2f"
 					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+			(project "connectors"
+				(path "/89ae93ea-9af2-47dc-9987-b4e76d61a778"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -3346,6 +4044,12 @@
 					(unit 1)
 				)
 			)
+			(project "connectors"
+				(path "/89ae93ea-9af2-47dc-9987-b4e76d61a778"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3412,6 +4116,12 @@
 					(unit 1)
 				)
 			)
+			(project "connectors"
+				(path "/89ae93ea-9af2-47dc-9987-b4e76d61a778"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3475,6 +4185,12 @@
 			(project "doggie_board"
 				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/f752ec70-f478-4de6-b067-5094303e1e2f"
 					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+			(project "connectors"
+				(path "/89ae93ea-9af2-47dc-9987-b4e76d61a778"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -3548,6 +4264,12 @@
 					(unit 1)
 				)
 			)
+			(project "connectors"
+				(path "/89ae93ea-9af2-47dc-9987-b4e76d61a778"
+					(reference "J5V?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3611,6 +4333,12 @@
 			(project "doggie_board"
 				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/f752ec70-f478-4de6-b067-5094303e1e2f"
 					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+			(project "connectors"
+				(path "/89ae93ea-9af2-47dc-9987-b4e76d61a778"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -3680,6 +4408,12 @@
 					(unit 1)
 				)
 			)
+			(project "connectors"
+				(path "/89ae93ea-9af2-47dc-9987-b4e76d61a778"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3746,6 +4480,12 @@
 					(unit 1)
 				)
 			)
+			(project "connectors"
+				(path "/89ae93ea-9af2-47dc-9987-b4e76d61a778"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3776,7 +4516,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "XT30PW-M:AMASS_XT30PW-M"
+		(property "Footprint" "Connector_AMASS:AMASS_XT30U-F_1x02_P5.0mm_Vertical"
 			(at 158.75 146.05 0)
 			(effects
 				(font
@@ -3813,6 +4553,12 @@
 			(project "doggie_board"
 				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/f752ec70-f478-4de6-b067-5094303e1e2f"
 					(reference "J5V18")
+					(unit 1)
+				)
+			)
+			(project "connectors"
+				(path "/89ae93ea-9af2-47dc-9987-b4e76d61a778"
+					(reference "J5V?")
 					(unit 1)
 				)
 			)
@@ -3882,6 +4628,12 @@
 					(unit 1)
 				)
 			)
+			(project "connectors"
+				(path "/89ae93ea-9af2-47dc-9987-b4e76d61a778"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3945,6 +4697,12 @@
 			(project "doggie_board"
 				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/f752ec70-f478-4de6-b067-5094303e1e2f"
 					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+			(project "connectors"
+				(path "/89ae93ea-9af2-47dc-9987-b4e76d61a778"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -4014,6 +4772,18 @@
 					(unit 1)
 				)
 			)
+			(project "connectors"
+				(path "/89ae93ea-9af2-47dc-9987-b4e76d61a778"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
