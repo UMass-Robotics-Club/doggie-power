@@ -3025,7 +3025,7 @@
 		)
 		(uuid "fde4655a-14c8-4c70-964a-010f658dbe2b")
 	)
-	(label "drain"
+	(label "drain_r"
 		(at 227.33 41.91 0)
 		(effects
 			(font
@@ -3035,7 +3035,7 @@
 		)
 		(uuid "01df465c-123d-4b36-bc7e-e98fa1149efb")
 	)
-	(label "gate_line"
+	(label "gate_line_r"
 		(at 229.87 50.8 0)
 		(effects
 			(font
@@ -3045,8 +3045,8 @@
 		)
 		(uuid "0e048c17-7398-4407-86af-d4226288adee")
 	)
-	(label "drain"
-		(at 101.6 41.91 0)
+	(label "drain_left"
+		(at 100.33 41.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3055,8 +3055,8 @@
 		)
 		(uuid "0e2231fc-032d-43be-925d-f2b1c55528f2")
 	)
-	(label "gate_line"
-		(at 104.14 50.8 0)
+	(label "gate_line_left"
+		(at 102.87 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)

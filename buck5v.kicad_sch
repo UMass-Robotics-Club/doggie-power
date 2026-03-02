@@ -1257,6 +1257,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+48V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+48V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+48V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+48V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+48V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers
@@ -1604,12 +1729,6 @@
 		(uuid "244efb5f-59b5-4fac-b204-b6fb3bfa4dc7")
 	)
 	(junction
-		(at 43.18 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3dd3ccc5-11b7-4a42-a6b0-756a70d555d0")
-	)
-	(junction
 		(at 109.22 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1704,6 +1823,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d1b94b1f-c240-4922-9684-eb2ca1ef8393")
+	)
+	(junction
+		(at 33.02 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc532f73-cd27-4169-ba4c-10d7f1fea1db")
 	)
 	(junction
 		(at 114.3 92.71)
@@ -1996,6 +2121,16 @@
 			(type default)
 		)
 		(uuid "5b358439-70d7-4ac4-9d98-202f16f8f4a1")
+	)
+	(wire
+		(pts
+			(xy 33.02 45.72) (xy 53.34 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62f1638c-b689-4c7b-9cc2-da7316f5a143")
 	)
 	(wire
 		(pts
@@ -2349,16 +2484,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 45.72) (xy 53.34 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df105d1b-7af1-499b-b8c7-b4fdeecab5a3")
-	)
-	(wire
-		(pts
 			(xy 80.01 33.02) (xy 80.01 63.5)
 		)
 		(stroke
@@ -2419,7 +2544,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 45.72) (xy 43.18 45.72)
+			(xy 31.75 45.72) (xy 33.02 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2456,28 +2581,6 @@
 			(type default)
 		)
 		(uuid "ff97036b-da83-40ce-920b-8e71a1ab4933")
-	)
-	(global_label "48v_switched"
-		(shape input)
-		(at 31.75 45.72 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "fb3f8710-81d4-4d17-a4dc-e216b7cdd4dc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 16.2463 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -3760,6 +3863,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+48V")
+		(at 33.02 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b4973710-ec97-4b49-9b46-bc0f0aa0e061")
+		(property "Reference" "#PWR062"
+			(at 33.02 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+48V"
+			(at 33.02 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+48V\""
+			(at 33.02 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "149d43ba-2211-428a-be6e-0028b6beaddf")
+		)
+		(instances
+			(project "doggie_board"
+				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/64e74d8d-15e7-49a6-a99b-9f52cddf6628"
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 140.97 54.61 0)
 		(unit 1)
@@ -4010,72 +4179,6 @@
 			(project "doggie_board"
 				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/64e74d8d-15e7-49a6-a99b-9f52cddf6628"
 					(reference "Rfbt2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 43.18 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "efdd1a06-85c2-409b-a3d3-85cc27bc0b34")
-		(property "Reference" "#FLG05"
-			(at 43.18 43.815 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 43.18 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 43.18 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 43.18 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 43.18 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "db7c77a9-62d0-47d5-9722-830345f70f58")
-		)
-		(instances
-			(project "doggie_board"
-				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/64e74d8d-15e7-49a6-a99b-9f52cddf6628"
-					(reference "#FLG05")
 					(unit 1)
 				)
 			)
