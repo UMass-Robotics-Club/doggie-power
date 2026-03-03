@@ -3336,7 +3336,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d0f5131-6e41-4ffe-af6b-a1b899774bbf")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR019"
 			(at 73.66 82.55 0)
 			(effects
 				(font
@@ -3386,7 +3386,7 @@
 		(instances
 			(project "doggie_board"
 				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/ccf07133-5d0c-4081-9a30-ebff06623cf2"
-					(reference "#PWR012")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)

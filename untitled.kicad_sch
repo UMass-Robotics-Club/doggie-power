@@ -2534,7 +2534,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11a9689f-4d1e-4cef-a6fc-5ff731b1993e")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR070"
 			(at 142.24 110.49 0)
 			(effects
 				(font
@@ -2584,7 +2584,7 @@
 		(instances
 			(project ""
 				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/c35c9e48-520d-4065-aa61-8aea5a619a4f"
-					(reference "#PWR058")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -2600,7 +2600,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1cf98735-1a8f-47b1-a862-5ac8f12ebcbb")
-		(property "Reference" "#FLG08"
+		(property "Reference" "#FLG07"
 			(at 270.51 47.625 0)
 			(effects
 				(font
@@ -2650,7 +2650,7 @@
 		(instances
 			(project "doggie_board"
 				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/c35c9e48-520d-4065-aa61-8aea5a619a4f"
-					(reference "#FLG08")
+					(reference "#FLG07")
 					(unit 1)
 				)
 			)
@@ -2874,7 +2874,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e477c48-f0c9-4dc6-9e66-5e78a16a84e1")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR072"
 			(at 162.56 106.68 0)
 			(effects
 				(font
@@ -2924,7 +2924,7 @@
 		(instances
 			(project ""
 				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/c35c9e48-520d-4065-aa61-8aea5a619a4f"
-					(reference "#PWR060")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -2940,7 +2940,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "757df3e3-47cb-4371-bf9b-dfd95844e011")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR069"
 			(at 50.8 60.96 0)
 			(effects
 				(font
@@ -2990,7 +2990,7 @@
 		(instances
 			(project "doggie_board"
 				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/c35c9e48-520d-4065-aa61-8aea5a619a4f"
-					(reference "#PWR063")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -3492,7 +3492,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e210550e-3065-4bb5-8d8e-1e3e46b005e7")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR073"
 			(at 278.13 54.61 0)
 			(effects
 				(font
@@ -3542,7 +3542,7 @@
 		(instances
 			(project "doggie_board"
 				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/c35c9e48-520d-4065-aa61-8aea5a619a4f"
-					(reference "#PWR061")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -3740,7 +3740,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5374b60-4dd1-4fc0-adf8-9991290e041d")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR071"
 			(at 157.48 50.8 0)
 			(effects
 				(font
@@ -3790,7 +3790,7 @@
 		(instances
 			(project ""
 				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/c35c9e48-520d-4065-aa61-8aea5a619a4f"
-					(reference "#PWR059")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -3806,7 +3806,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f9785d07-bee9-4b31-8611-d3f712b237ad")
-		(property "Reference" "#FLG07"
+		(property "Reference" "#FLG06"
 			(at 59.69 55.245 0)
 			(effects
 				(font
@@ -3856,7 +3856,7 @@
 		(instances
 			(project "doggie_board"
 				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/c35c9e48-520d-4065-aa61-8aea5a619a4f"
-					(reference "#FLG07")
+					(reference "#FLG06")
 					(unit 1)
 				)
 			)
