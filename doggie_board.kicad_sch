@@ -113,7 +113,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "c35c9e48-520d-4065-aa61-8aea5a619a4f")
-		(property "Sheetname" "3.3v linear converter"
+		(property "Sheetname" "3.3v Buck Converter"
 			(at 16.51 141.5284 0)
 			(effects
 				(font
@@ -134,7 +134,7 @@
 		(instances
 			(project "doggie_board"
 				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0"
-					(page "6")
+					(page "5")
 				)
 			)
 		)
@@ -182,6 +182,48 @@
 		)
 	)
 	(sheet
+		(at 144.272 121.158)
+		(size 38.1 23.876)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "db50864b-d0ce-471a-9561-ff2a2bd93fe3")
+		(property "Sheetname" "misc"
+			(at 144.272 120.4464 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "misc.kicad_sch"
+			(at 144.272 145.6186 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "doggie_board"
+				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 70.358 113.03)
 		(size 58.928 35.052)
 		(exclude_from_sim no)
@@ -218,7 +260,7 @@
 		(instances
 			(project "doggie_board"
 				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0"
-					(page "5")
+					(page "6")
 				)
 			)
 		)

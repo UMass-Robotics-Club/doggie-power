@@ -226,7 +226,12 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "multiple_net_names|342900|520700|f3c9761a-601b-4576-a9fb-a87b7817b3e2|4cc3e5d1-6f58-4c77-873a-9d8187964b06|/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/ccf07133-5d0c-4081-9a30-ebff06623cf2|/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/ccf07133-5d0c-4081-9a30-ebff06623cf2|/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/ccf07133-5d0c-4081-9a30-ebff06623cf2",
+        "genuinely TI-WebBench made me do this"
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -668,6 +673,216 @@
           "label": "MANUFACTURER",
           "name": "MANUFACTURER",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "EMIN",
+          "name": "EMIN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ENOM",
+          "name": "ENOM",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "E_MAX",
+          "name": "E_MAX",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "E_MIN",
+          "name": "E_MIN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "E_NOM",
+          "name": "E_NOM",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "IPC",
+          "name": "IPC",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JEDEC",
+          "name": "JEDEC",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "L_MAX",
+          "name": "L_MAX",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "L_MIN",
+          "name": "L_MIN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "L_NOM",
+          "name": "L_NOM",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "EMAX",
+          "name": "EMAX",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "D_MIN",
+          "name": "D_MIN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "D_NOM",
+          "name": "D_NOM",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "B_MIN",
+          "name": "B_MIN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "B_NOM",
+          "name": "B_NOM",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PACKAGE_TYPE",
+          "name": "PACKAGE_TYPE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTEV",
+          "name": "PARTEV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "E2_NOM",
+          "name": "E2_NOM",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PINS",
+          "name": "PINS",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PIN_COLUMNS",
+          "name": "PIN_COLUMNS",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PIN_COUNT_D",
+          "name": "PIN_COUNT_D",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PIN_COUNT_E",
+          "name": "PIN_COUNT_E",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "D2_NOM",
+          "name": "D2_NOM",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DMAX",
+          "name": "DMAX",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SNAPEDA_PACKAGE_ID",
+          "name": "SNAPEDA_PACKAGE_ID",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DMIN",
+          "name": "DMIN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "BALL_ROWS",
+          "name": "BALL_ROWS",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "D_MAX",
+          "name": "D_MAX",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "BALL_COLUMNS",
+          "name": "BALL_COLUMNS",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DNOM",
+          "name": "DNOM",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "THERMAL_PAD",
+          "name": "THERMAL_PAD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VACANCIES",
+          "name": "VACANCIES",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "A_MAX",
+          "name": "A_MAX",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "BODY_DIAMETER",
+          "name": "BODY_DIAMETER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "B_MAX",
+          "name": "B_MAX",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -735,12 +950,16 @@
       "5v Buck Converter"
     ],
     [
+      "c35c9e48-520d-4065-aa61-8aea5a619a4f",
+      "3.3v Buck Converter"
+    ],
+    [
       "f752ec70-f478-4de6-b067-5094303e1e2f",
       "connectors"
     ],
     [
-      "c35c9e48-520d-4065-aa61-8aea5a619a4f",
-      "3.3v linear converter"
+      "db50864b-d0ce-471a-9561-ff2a2bd93fe3",
+      "misc"
     ]
   ],
   "text_variables": {}

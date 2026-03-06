@@ -3,4 +3,7 @@
   (lib (name "tps2490g")(type "KiCad")(uri "${KIPRJMOD}/symbols/TPS2490DGSR.kicad_sym")(options "")(descr ""))
   (lib (name "PSMN3R7-100BSEJ")(type "KiCad")(uri "${KIPRJMOD}/symbols/PSMN3R7-100BSEJ.kicad_sym")(options "")(descr ""))
   (lib (name "xt90")(type "KiCad")(uri "${KIPRJMOD}/symbols/XT90PW-M.kicad_sym")(options "")(descr ""))
+  (lib (name "MIC28516")(type "KiCad")(uri "${KIPRJMOD}/symbols/MIC28516.kicad_sym")(options "")(descr ""))
+  (lib (name "LM5148")(type "KiCad")(uri "${KIPRJMOD}/symbols/LM5148RGYR.kicad_sym")(options "")(descr ""))
+  (lib (name "TPS566242DRLR")(type "KiCad")(uri "${KIPRJMOD}/symbols/TPS566242DRLR.kicad_sym")(options "")(descr ""))
 )
