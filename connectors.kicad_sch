@@ -3991,10 +3991,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "177906be-ab1a-4564-a2a0-f2a7e86a25ed")
+			(uuid "177906be-ab1a-4564-a2a0-f2a7e86a25ee")
 		)
 		(pin "2"
-			(uuid "ade2b153-b016-40cc-a403-d405c00e491e")
+			(uuid "ade2b153-b016-40cc-a403-d405c00e491f")
 		)
 		(instances
 			(project "doggie_board"
@@ -4566,10 +4566,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "61a36242-b566-4df2-8535-c66668400f9e")
+			(uuid "61a36242-b566-4df2-8535-c66668400f9f")
 		)
 		(pin "2"
-			(uuid "5ba8572e-2d91-4e38-ab76-db40b4d36be0")
+			(uuid "5ba8572e-2d91-4e38-ab76-db40b4d36be1")
 		)
 		(instances
 			(project "doggie_board"
@@ -4837,10 +4837,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "4678c76d-1915-43a5-8d8f-ded8bb89fd30")
+			(uuid "4678c76d-1915-43a5-8d8f-ded8bb89fd31")
 		)
 		(pin "2"
-			(uuid "7274f9ce-f8e7-41ec-a452-55a488a51749")
+			(uuid "7274f9ce-f8e7-41ec-a452-55a488a5174a")
 		)
 		(instances
 			(project "doggie_board"
@@ -5257,10 +5257,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "4258c55d-04bb-4a85-92f6-b567c86179a9")
+			(uuid "4258c55d-04bb-4a85-92f6-b567c86179aa")
 		)
 		(pin "2"
-			(uuid "fdcf6ec2-4cfa-4c28-b050-7252055ea4d7")
+			(uuid "fdcf6ec2-4cfa-4c28-b050-7252055ea4d8")
 		)
 		(instances
 			(project "doggie_board"
