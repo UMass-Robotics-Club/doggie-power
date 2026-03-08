@@ -1672,6 +1672,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 49.53) (xy 135.89 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c904ffb-7447-4cfd-9113-1008f0a87881")
+	)
+	(wire
+		(pts
 			(xy 128.27 31.75) (xy 137.16 31.75)
 		)
 		(stroke
@@ -1812,6 +1822,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 55.88) (xy 99.06 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99577ba4-a213-4b36-b008-c4081d037f2e")
+	)
+	(wire
+		(pts
 			(xy 110.49 31.75) (xy 120.65 31.75)
 		)
 		(stroke
@@ -1940,6 +1960,16 @@
 		)
 		(uuid "f1910226-d69b-4013-a201-c6514e7ae593")
 	)
+	(label "5V_EN"
+		(at 99.06 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "00a12aed-94c9-445b-9dea-5305f9120335")
+	)
 	(label "SW"
 		(at 95.25 31.75 180)
 		(effects
@@ -1960,27 +1990,15 @@
 		)
 		(uuid "c41e4914-a920-4d2f-b737-315a675fc7ae")
 	)
-	(global_label "5V_EN"
-		(shape input)
-		(at 99.06 54.61 0)
-		(fields_autoplaced yes)
+	(label "5V_EN"
+		(at 133.35 49.53 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right bottom)
 		)
-		(uuid "31234ccc-1b00-42fd-938a-5d37ff33d7e9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 107.7904 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "d6b1bb4b-6c50-4058-a9da-06dbdde3e8d4")
 	)
 	(global_label "12V_PG"
 		(shape input)
@@ -2000,28 +2018,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "5V_EN"
-		(shape input)
-		(at 135.89 49.53 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "db80f9a9-c98a-417a-b9c7-8e3aacf7857b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127.1596 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -2679,13 +2675,12 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V_EN"
-			(at 132.08 46.9899 90)
+		(property "Value" "+5V_LP"
+			(at 134.62 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -3434,7 +3429,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V_EN"
+		(property "Value" "+5V_LP"
 			(at 26.67 66.0399 90)
 			(effects
 				(font
@@ -3848,7 +3843,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 140.97 49.53 0)
 			(effects
 				(font
