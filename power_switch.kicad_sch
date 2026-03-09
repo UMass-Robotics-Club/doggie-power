@@ -2660,6 +2660,12 @@
 		(uuid "10423a70-351f-4beb-89c1-644eee66cd5c")
 	)
 	(junction
+		(at 31.75 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1961ca83-087b-47c2-8fc1-4df4e69fff9d")
+	)
+	(junction
 		(at 181.61 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2694,12 +2700,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "707ef994-76c2-4332-ac88-ec355d663b19")
-	)
-	(junction
-		(at 85.09 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "781c93f6-b42e-4885-9727-f0a6c29fb0d9")
 	)
 	(junction
 		(at 116.84 53.34)
@@ -2762,6 +2762,12 @@
 		(uuid "d6e216f8-3328-409c-9b93-34b92769cff6")
 	)
 	(junction
+		(at 29.21 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8585283-f2e1-4a38-b487-2b43d84c216d")
+	)
+	(junction
 		(at 149.86 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2819,7 +2825,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 54.61) (xy 33.02 54.61)
+			(xy 27.94 43.18) (xy 31.75 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2849,7 +2855,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 60.96) (xy 29.21 54.61)
+			(xy 27.94 49.53) (xy 27.94 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2919,6 +2925,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 25.4) (xy 29.21 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3aee6228-2594-40e2-a270-c7aa74786114")
+	)
+	(wire
+		(pts
 			(xy 38.1 77.47) (xy 38.1 83.82)
 		)
 		(stroke
@@ -2969,7 +2985,17 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 54.61) (xy 90.17 54.61)
+			(xy 29.21 52.07) (xy 27.94 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d09524f-45dd-4764-925e-a1b3baab9c87")
+	)
+	(wire
+		(pts
+			(xy 67.31 54.61) (xy 90.17 54.61)
 		)
 		(stroke
 			(width 0)
@@ -3009,13 +3035,13 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 54.61) (xy 85.09 54.61)
+			(xy 35.56 25.4) (xy 31.75 25.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5575c1af-4002-4834-9019-d0b69bc5ec2f")
+		(uuid "5802af2a-98ca-4661-b0d8-3f3c23767791")
 	)
 	(wire
 		(pts
@@ -3129,16 +3155,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 55.88) (xy 85.09 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7568fd95-a3ec-41ba-8601-1a37c28051bc")
-	)
-	(wire
-		(pts
 			(xy 48.26 77.47) (xy 57.15 77.47)
 		)
 		(stroke
@@ -3176,6 +3192,16 @@
 			(type default)
 		)
 		(uuid "80c2e877-fbda-4da6-955e-1f7d1df500e8")
+	)
+	(wire
+		(pts
+			(xy 35.56 52.07) (xy 29.21 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92d1b6b2-ae02-44d6-b859-6094d13154a0")
 	)
 	(wire
 		(pts
@@ -3329,7 +3355,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 44.45) (xy 29.21 38.1)
+			(xy 29.21 22.86) (xy 29.21 16.51)
 		)
 		(stroke
 			(width 0)
@@ -3429,7 +3455,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 38.1) (xy 33.02 38.1)
+			(xy 29.21 16.51) (xy 33.02 16.51)
 		)
 		(stroke
 			(width 0)
@@ -3609,7 +3635,7 @@
 	)
 	(global_label "48_RAW"
 		(shape input)
-		(at 29.21 63.5 0)
+		(at 35.56 52.07 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3619,7 +3645,7 @@
 		)
 		(uuid "a2c44a5e-73d9-43ee-b19f-4df403bba37c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 39.3918 63.5 0)
+			(at 45.7418 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3631,7 +3657,7 @@
 	)
 	(global_label "48_RAW"
 		(shape input)
-		(at 29.21 46.99 0)
+		(at 35.56 25.4 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3641,7 +3667,7 @@
 		)
 		(uuid "bbd006e1-6341-4485-b6f2-bddcdf061233")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 39.3918 46.99 0)
+			(at 45.7418 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4333,7 +4359,7 @@
 	)
 	(symbol
 		(lib_id "xt90:XT90PW-M")
-		(at 24.13 63.5 180)
+		(at 22.86 52.07 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4342,7 +4368,7 @@
 		(fields_autoplaced yes)
 		(uuid "1f22f5f9-c879-4634-be33-724b66c33bdc")
 		(property "Reference" "J3"
-			(at 20.32 53.34 0)
+			(at 19.05 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4350,7 +4376,7 @@
 			)
 		)
 		(property "Value" "XT90PW-M"
-			(at 20.32 55.88 0)
+			(at 19.05 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4358,7 +4384,7 @@
 			)
 		)
 		(property "Footprint" "footprints:AMASS_XT90PW-M"
-			(at 24.13 63.5 0)
+			(at 22.86 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4368,7 +4394,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 63.5 0)
+			(at 22.86 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4377,7 +4403,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 24.13 63.5 0)
+			(at 22.86 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4386,7 +4412,7 @@
 			)
 		)
 		(property "MF" "AMASS"
-			(at 24.13 63.5 0)
+			(at 22.86 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4396,7 +4422,7 @@
 			)
 		)
 		(property "Description_1" "Socket; DC supply; XT90; male; PIN: 2; on PCBs; THT; Colour: yellow"
-			(at 24.13 63.5 0)
+			(at 22.86 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4406,7 +4432,7 @@
 			)
 		)
 		(property "Package" "Package"
-			(at 24.13 63.5 0)
+			(at 22.86 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4416,7 +4442,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 24.13 63.5 0)
+			(at 22.86 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4426,7 +4452,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/XT90PW-M/AMASS/view-part/?ref=eda"
-			(at 24.13 63.5 0)
+			(at 22.86 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4436,7 +4462,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HIEGHT" "10.3mm"
-			(at 24.13 63.5 0)
+			(at 22.86 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4446,7 +4472,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 24.13 63.5 0)
+			(at 22.86 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4456,7 +4482,7 @@
 			)
 		)
 		(property "PARTREV" "V00"
-			(at 24.13 63.5 0)
+			(at 22.86 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4466,7 +4492,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT90PW-M/AMASS/view-part/?ref=snap"
-			(at 24.13 63.5 0)
+			(at 22.86 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4476,7 +4502,7 @@
 			)
 		)
 		(property "MP" "XT90PW-M"
-			(at 24.13 63.5 0)
+			(at 22.86 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4486,7 +4512,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 24.13 63.5 0)
+			(at 22.86 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4496,7 +4522,7 @@
 			)
 		)
 		(property "MANUFACTURER" "AMASS"
-			(at 24.13 63.5 0)
+			(at 22.86 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4506,7 +4532,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 24.13 63.5 0)
+			(at 22.86 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4515,7 +4541,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 24.13 63.5 0)
+			(at 22.86 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4524,7 +4550,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 24.13 63.5 0)
+			(at 22.86 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4668,7 +4694,7 @@
 	)
 	(symbol
 		(lib_id "Diode:SMF48A")
-		(at 85.09 59.69 270)
+		(at 31.75 29.21 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4677,7 +4703,7 @@
 		(fields_autoplaced yes)
 		(uuid "29abbe7e-6d1b-459d-8601-f8e3d8952000")
 		(property "Reference" "D1"
-			(at 87.63 58.4199 90)
+			(at 34.29 27.9399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4685,8 +4711,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "15KPA048C-SD-Q"
-			(at 87.63 60.9599 90)
+		(property "Value" "5.0SMDJ58A"
+			(at 34.29 30.4799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4694,8 +4720,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:DIODE_15KPA048C-SD-Q_BRN"
-			(at 80.01 59.69 0)
+		(property "Footprint" "Diode_SMD:D_SMB-SMC_Universal_Handsoldering"
+			(at 26.67 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4704,7 +4730,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/doc?85881"
-			(at 85.09 58.42 0)
+			(at 31.75 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4713,7 +4739,7 @@
 			)
 		)
 		(property "Description" "200W unidirectional Transil Transient Voltage Suppressor, 48Vrwm, SMF"
-			(at 85.09 59.69 0)
+			(at 31.75 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4722,7 +4748,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 85.09 59.69 90)
+			(at 31.75 29.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4731,7 +4757,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 85.09 59.69 90)
+			(at 31.75 29.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4740,7 +4766,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 85.09 59.69 90)
+			(at 31.75 29.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4861,7 +4887,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 85.09 63.5 0)
+		(at 31.75 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4870,7 +4896,7 @@
 		(fields_autoplaced yes)
 		(uuid "3d7af199-1c0b-4b33-93f2-812d33b7ff39")
 		(property "Reference" "#PWR07"
-			(at 85.09 69.85 0)
+			(at 31.75 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4879,7 +4905,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 85.09 68.58 0)
+			(at 31.75 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4887,7 +4913,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 85.09 63.5 0)
+			(at 31.75 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4896,7 +4922,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 63.5 0)
+			(at 31.75 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4905,7 +4931,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 85.09 63.5 0)
+			(at 31.75 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5090,7 +5116,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 33.02 54.61 0)
+		(at 31.75 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5099,7 +5125,7 @@
 		(fields_autoplaced yes)
 		(uuid "521948a3-9ab7-4110-a8bc-9136a67bd09b")
 		(property "Reference" "#PWR06"
-			(at 33.02 60.96 0)
+			(at 31.75 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5108,7 +5134,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 33.02 59.69 0)
+			(at 31.75 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5116,7 +5142,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 54.61 0)
+			(at 31.75 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5125,7 +5151,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 54.61 0)
+			(at 31.75 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5134,7 +5160,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 33.02 54.61 0)
+			(at 31.75 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5239,7 +5265,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "212k"
+		(property "Value" "300k"
 			(at 59.69 74.9299 0)
 			(effects
 				(font
@@ -6137,6 +6163,169 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 29.21 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c4a59ab-cc55-4010-abba-cf27d286688e")
+		(property "Reference" "#PWR099"
+			(at 29.21 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 29.21 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 29.21 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88da80a3-bf46-4f0a-8297-53dcee64947c")
+		)
+		(instances
+			(project "doggie_board"
+				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/7e8758ce-fdca-4bb6-a847-f546f03772b9"
+					(reference "#PWR099")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SMF48A")
+		(at 29.21 55.88 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90064d1e-e4ca-4484-b0e1-6d96841b50cc")
+		(property "Reference" "D2"
+			(at 31.75 54.6099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5.0SMDJ58A"
+			(at 31.75 57.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMB-SMC_Universal_Handsoldering"
+			(at 24.13 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/doc?85881"
+			(at 29.21 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "200W unidirectional Transil Transient Voltage Suppressor, 48Vrwm, SMF"
+			(at 29.21 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 29.21 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 29.21 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 29.21 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "29dfa46c-cee2-4f34-a289-bb29145a31fa")
+		)
+		(pin "2"
+			(uuid "79e6b106-34da-4196-a83c-dca9adefb77e")
+		)
+		(instances
+			(project "doggie_board"
+				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/7e8758ce-fdca-4bb6-a847-f546f03772b9"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 132.08 68.58 0)
 		(unit 1)
@@ -6742,7 +6931,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 33.02 38.1 0)
+		(at 33.02 16.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6751,7 +6940,7 @@
 		(fields_autoplaced yes)
 		(uuid "cc8795c8-a0ec-424c-9eda-379a0b7c6f53")
 		(property "Reference" "#PWR05"
-			(at 33.02 44.45 0)
+			(at 33.02 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6760,7 +6949,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 33.02 43.18 0)
+			(at 33.02 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6768,7 +6957,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 38.1 0)
+			(at 33.02 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6777,7 +6966,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 38.1 0)
+			(at 33.02 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6786,7 +6975,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 33.02 38.1 0)
+			(at 33.02 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7334,7 +7523,7 @@
 	)
 	(symbol
 		(lib_id "xt90:XT90PW-M")
-		(at 24.13 46.99 180)
+		(at 24.13 25.4 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7343,7 +7532,7 @@
 		(fields_autoplaced yes)
 		(uuid "f3a8d7fe-dca4-4027-9606-f2d414047f0a")
 		(property "Reference" "J2"
-			(at 20.32 36.83 0)
+			(at 20.32 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7351,7 +7540,7 @@
 			)
 		)
 		(property "Value" "XT90PW-M"
-			(at 20.32 39.37 0)
+			(at 20.32 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7359,7 +7548,7 @@
 			)
 		)
 		(property "Footprint" "footprints:AMASS_XT90PW-M"
-			(at 24.13 46.99 0)
+			(at 24.13 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7369,7 +7558,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 46.99 0)
+			(at 24.13 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7378,7 +7567,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 24.13 46.99 0)
+			(at 24.13 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7387,7 +7576,7 @@
 			)
 		)
 		(property "MF" "AMASS"
-			(at 24.13 46.99 0)
+			(at 24.13 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7397,7 +7586,7 @@
 			)
 		)
 		(property "Description_1" "Socket; DC supply; XT90; male; PIN: 2; on PCBs; THT; Colour: yellow"
-			(at 24.13 46.99 0)
+			(at 24.13 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7407,7 +7596,7 @@
 			)
 		)
 		(property "Package" "Package"
-			(at 24.13 46.99 0)
+			(at 24.13 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7417,7 +7606,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 24.13 46.99 0)
+			(at 24.13 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7427,7 +7616,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/XT90PW-M/AMASS/view-part/?ref=eda"
-			(at 24.13 46.99 0)
+			(at 24.13 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7437,7 +7626,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HIEGHT" "10.3mm"
-			(at 24.13 46.99 0)
+			(at 24.13 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7447,7 +7636,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 24.13 46.99 0)
+			(at 24.13 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7457,7 +7646,7 @@
 			)
 		)
 		(property "PARTREV" "V00"
-			(at 24.13 46.99 0)
+			(at 24.13 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7467,7 +7656,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT90PW-M/AMASS/view-part/?ref=snap"
-			(at 24.13 46.99 0)
+			(at 24.13 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7477,7 +7666,7 @@
 			)
 		)
 		(property "MP" "XT90PW-M"
-			(at 24.13 46.99 0)
+			(at 24.13 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7487,7 +7676,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 24.13 46.99 0)
+			(at 24.13 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7497,7 +7686,7 @@
 			)
 		)
 		(property "MANUFACTURER" "AMASS"
-			(at 24.13 46.99 0)
+			(at 24.13 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7507,7 +7696,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 24.13 46.99 0)
+			(at 24.13 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7516,7 +7705,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 24.13 46.99 0)
+			(at 24.13 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7525,7 +7714,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 24.13 46.99 0)
+			(at 24.13 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)

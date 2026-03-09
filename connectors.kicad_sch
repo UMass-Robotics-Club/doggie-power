@@ -932,7 +932,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02"
+		(property "Value" "3.3v"
 			(at 125.73 25.3999 90)
 			(effects
 				(font
@@ -941,7 +941,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 123.19 24.13 0)
 			(effects
 				(font
@@ -1297,7 +1297,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02"
+		(property "Value" "48v"
 			(at 21.59 40.6399 90)
 			(effects
 				(font
@@ -1373,7 +1373,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02"
+		(property "Value" "48v"
 			(at 45.72 40.6399 90)
 			(effects
 				(font
@@ -1449,7 +1449,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02"
+		(property "Value" "48v"
 			(at 45.72 68.5799 90)
 			(effects
 				(font
@@ -1725,7 +1725,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02"
+		(property "Value" "5v"
 			(at 149.86 26.6699 90)
 			(effects
 				(font
@@ -1801,7 +1801,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02"
+		(property "Value" "48v"
 			(at 21.59 82.5499 90)
 			(effects
 				(font
@@ -2010,7 +2010,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02"
+		(property "Value" "48v"
 			(at 45.72 82.5499 90)
 			(effects
 				(font
@@ -2304,7 +2304,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02"
+		(property "Value" "3.3v"
 			(at 125.73 67.3099 90)
 			(effects
 				(font
@@ -2313,7 +2313,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 123.19 66.04 0)
 			(effects
 				(font
@@ -2882,7 +2882,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02"
+		(property "Value" "3.3v"
 			(at 125.73 53.3399 90)
 			(effects
 				(font
@@ -2891,7 +2891,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 123.19 52.07 0)
 			(effects
 				(font
@@ -3092,7 +3092,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02"
+		(property "Value" "48v"
 			(at 21.59 96.5199 90)
 			(effects
 				(font
@@ -3168,7 +3168,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02"
+		(property "Value" "48v"
 			(at 45.72 96.5199 90)
 			(effects
 				(font
@@ -3388,7 +3388,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02"
+		(property "Value" "5v"
 			(at 149.86 59.6899 90)
 			(effects
 				(font
@@ -3397,7 +3397,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 147.32 58.42 0)
 			(effects
 				(font
@@ -3597,7 +3597,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02"
+		(property "Value" "48v"
 			(at 21.59 68.5799 90)
 			(effects
 				(font
@@ -3673,7 +3673,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02"
+		(property "Value" "5v"
 			(at 149.86 41.9099 90)
 			(effects
 				(font
@@ -3682,7 +3682,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 147.32 40.64 0)
 			(effects
 				(font
@@ -3954,7 +3954,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02"
+		(property "Value" "12v"
 			(at 73.66 27.9399 90)
 			(effects
 				(font
@@ -4091,7 +4091,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02"
+		(property "Value" "48v"
 			(at 21.59 26.6699 90)
 			(effects
 				(font
@@ -4167,7 +4167,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02"
+		(property "Value" "48v"
 			(at 45.72 26.6699 90)
 			(effects
 				(font
@@ -4243,7 +4243,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02"
+		(property "Value" "3.3v"
 			(at 125.73 39.3699 90)
 			(effects
 				(font
@@ -4252,7 +4252,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 123.19 38.1 0)
 			(effects
 				(font
@@ -4319,7 +4319,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02"
+		(property "Value" "12v"
 			(at 73.66 76.1999 90)
 			(effects
 				(font
@@ -4328,7 +4328,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 71.12 74.93 0)
 			(effects
 				(font
@@ -4529,7 +4529,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02"
+		(property "Value" "12v"
 			(at 73.66 43.1799 90)
 			(effects
 				(font
@@ -4538,7 +4538,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 71.12 41.91 0)
 			(effects
 				(font
@@ -4800,7 +4800,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02"
+		(property "Value" "12v"
 			(at 73.66 60.9599 90)
 			(effects
 				(font
@@ -4809,7 +4809,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 71.12 59.69 0)
 			(effects
 				(font
@@ -5220,7 +5220,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02"
+		(property "Value" "5v"
 			(at 149.86 74.9299 90)
 			(effects
 				(font
@@ -5229,7 +5229,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 147.32 73.66 0)
 			(effects
 				(font
@@ -5513,7 +5513,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02"
+		(property "Value" "48v"
 			(at 21.59 54.6099 90)
 			(effects
 				(font
@@ -5589,7 +5589,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02"
+		(property "Value" "48v"
 			(at 45.72 54.6099 90)
 			(effects
 				(font
