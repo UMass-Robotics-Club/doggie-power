@@ -2084,6 +2084,12 @@
 			(uuid "b38af948-915c-4856-8a55-18cd1af18b55")
 		)
 		(instances
+			(project "buck5v"
+				(path "/45bff242-0d9b-4726-901e-ccb01efc2321"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "doggie_board"
 				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/64e74d8d-15e7-49a6-a99b-9f52cddf6628"
 					(reference "C14")
@@ -2154,6 +2160,12 @@
 			(uuid "e122e813-ecdb-4ed1-b734-68cd80e254d3")
 		)
 		(instances
+			(project "buck5v"
+				(path "/45bff242-0d9b-4726-901e-ccb01efc2321"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "doggie_board"
 				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/64e74d8d-15e7-49a6-a99b-9f52cddf6628"
 					(reference "R20")
@@ -2220,6 +2232,12 @@
 			(uuid "43bc92a5-f0ad-44dc-89cc-a8880be93dc5")
 		)
 		(instances
+			(project "buck5v"
+				(path "/45bff242-0d9b-4726-901e-ccb01efc2321"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "doggie_board"
 				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/64e74d8d-15e7-49a6-a99b-9f52cddf6628"
 					(reference "#PWR093")
@@ -2254,7 +2272,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "footprints:IND_1217AS-H-2R2N=P3"
 			(at 99.06 31.75 0)
 			(effects
 				(font
@@ -2288,6 +2306,12 @@
 			(uuid "dbc21bfd-8977-4bf0-a064-d5e7b8557beb")
 		)
 		(instances
+			(project "buck5v"
+				(path "/45bff242-0d9b-4726-901e-ccb01efc2321"
+					(reference "L?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/64e74d8d-15e7-49a6-a99b-9f52cddf6628"
 					(reference "L2")
@@ -2364,6 +2388,12 @@
 			(uuid "38b06161-a028-4909-9568-868e7e2f2281")
 		)
 		(instances
+			(project "buck5v"
+				(path "/45bff242-0d9b-4726-901e-ccb01efc2321"
+					(reference "Q?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/64e74d8d-15e7-49a6-a99b-9f52cddf6628"
 					(reference "Q11")
@@ -2430,6 +2460,12 @@
 			(uuid "54c0ca13-d0c8-40b0-9d92-bedb453aac8f")
 		)
 		(instances
+			(project "buck5v"
+				(path "/45bff242-0d9b-4726-901e-ccb01efc2321"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "doggie_board"
 				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/64e74d8d-15e7-49a6-a99b-9f52cddf6628"
 					(reference "#PWR095")
@@ -2496,6 +2532,12 @@
 			(uuid "9787f2b3-d1af-4db9-9084-98c05a6bd41b")
 		)
 		(instances
+			(project "buck5v"
+				(path "/45bff242-0d9b-4726-901e-ccb01efc2321"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/64e74d8d-15e7-49a6-a99b-9f52cddf6628"
 					(reference "#PWR027")
@@ -2566,6 +2608,12 @@
 			(uuid "9438683b-8fea-4025-b9e8-7a0b754c69b2")
 		)
 		(instances
+			(project "buck5v"
+				(path "/45bff242-0d9b-4726-901e-ccb01efc2321"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "doggie_board"
 				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/64e74d8d-15e7-49a6-a99b-9f52cddf6628"
 					(reference "C16")
@@ -2648,6 +2696,12 @@
 			(uuid "32d5ecea-c7a3-4031-9570-99a916740c3f")
 		)
 		(instances
+			(project "buck5v"
+				(path "/45bff242-0d9b-4726-901e-ccb01efc2321"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/64e74d8d-15e7-49a6-a99b-9f52cddf6628"
 					(reference "U3")
@@ -2714,6 +2768,12 @@
 			(uuid "db269e79-e074-40a5-9aeb-0466b31a1629")
 		)
 		(instances
+			(project "buck5v"
+				(path "/45bff242-0d9b-4726-901e-ccb01efc2321"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "doggie_board"
 				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/64e74d8d-15e7-49a6-a99b-9f52cddf6628"
 					(reference "#PWR094")
@@ -2784,6 +2844,12 @@
 			(uuid "69c45fe8-5bb6-4b6f-9905-5adc86947990")
 		)
 		(instances
+			(project "buck5v"
+				(path "/45bff242-0d9b-4726-901e-ccb01efc2321"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "doggie_board"
 				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/64e74d8d-15e7-49a6-a99b-9f52cddf6628"
 					(reference "C18")
@@ -2854,6 +2920,12 @@
 			(uuid "c562cc3f-7854-42c3-9eed-37bdd952a42b")
 		)
 		(instances
+			(project "buck5v"
+				(path "/45bff242-0d9b-4726-901e-ccb01efc2321"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "doggie_board"
 				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/64e74d8d-15e7-49a6-a99b-9f52cddf6628"
 					(reference "R19")
@@ -2924,6 +2996,12 @@
 			(uuid "bf72527b-f4a5-4154-b488-57f43ecb83a7")
 		)
 		(instances
+			(project "buck5v"
+				(path "/45bff242-0d9b-4726-901e-ccb01efc2321"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "doggie_board"
 				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/64e74d8d-15e7-49a6-a99b-9f52cddf6628"
 					(reference "C17")
@@ -2994,6 +3072,12 @@
 			(uuid "28bf574d-f5fa-4f5f-a9b3-f54202b1e152")
 		)
 		(instances
+			(project "buck5v"
+				(path "/45bff242-0d9b-4726-901e-ccb01efc2321"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/64e74d8d-15e7-49a6-a99b-9f52cddf6628"
 					(reference "C10")
@@ -3060,6 +3144,12 @@
 			(uuid "4eeb0b44-57b1-4705-bdfe-b981e48cce65")
 		)
 		(instances
+			(project "buck5v"
+				(path "/45bff242-0d9b-4726-901e-ccb01efc2321"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "doggie_board"
 				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/64e74d8d-15e7-49a6-a99b-9f52cddf6628"
 					(reference "#PWR024")
@@ -3130,6 +3220,12 @@
 			(uuid "31ae901c-0082-47cf-9c03-3a4aa379797a")
 		)
 		(instances
+			(project "buck5v"
+				(path "/45bff242-0d9b-4726-901e-ccb01efc2321"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "doggie_board"
 				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/64e74d8d-15e7-49a6-a99b-9f52cddf6628"
 					(reference "R22")
@@ -3196,6 +3292,12 @@
 			(uuid "d2932cac-67a1-4034-909d-e08a90d15f2b")
 		)
 		(instances
+			(project "buck5v"
+				(path "/45bff242-0d9b-4726-901e-ccb01efc2321"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/64e74d8d-15e7-49a6-a99b-9f52cddf6628"
 					(reference "#PWR021")
@@ -3266,6 +3368,12 @@
 			(uuid "2c087ad5-fd98-4442-a49d-9591ea12cf08")
 		)
 		(instances
+			(project "buck5v"
+				(path "/45bff242-0d9b-4726-901e-ccb01efc2321"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "doggie_board"
 				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/64e74d8d-15e7-49a6-a99b-9f52cddf6628"
 					(reference "C11")
@@ -3336,6 +3444,12 @@
 			(uuid "2862dec4-b738-454c-9d47-4be8d37f89ea")
 		)
 		(instances
+			(project "buck5v"
+				(path "/45bff242-0d9b-4726-901e-ccb01efc2321"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "doggie_board"
 				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/64e74d8d-15e7-49a6-a99b-9f52cddf6628"
 					(reference "C12")
@@ -3402,6 +3516,12 @@
 			(uuid "3b2ebc05-0f86-4894-9634-7f6b5fee1ce4")
 		)
 		(instances
+			(project "buck5v"
+				(path "/45bff242-0d9b-4726-901e-ccb01efc2321"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "doggie_board"
 				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/64e74d8d-15e7-49a6-a99b-9f52cddf6628"
 					(reference "#PWR025")
@@ -3469,6 +3589,12 @@
 			(uuid "5d75401b-4524-4b38-981e-a54aa18e0894")
 		)
 		(instances
+			(project "buck5v"
+				(path "/45bff242-0d9b-4726-901e-ccb01efc2321"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "doggie_board"
 				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/64e74d8d-15e7-49a6-a99b-9f52cddf6628"
 					(reference "#PWR096")
@@ -3539,6 +3665,12 @@
 			(uuid "e6f52474-bc38-45e1-8fd0-1ed1afde394d")
 		)
 		(instances
+			(project "buck5v"
+				(path "/45bff242-0d9b-4726-901e-ccb01efc2321"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/64e74d8d-15e7-49a6-a99b-9f52cddf6628"
 					(reference "C13")
@@ -3609,6 +3741,12 @@
 			(uuid "e905e480-3040-4a16-b917-6c55cc34a8dd")
 		)
 		(instances
+			(project "buck5v"
+				(path "/45bff242-0d9b-4726-901e-ccb01efc2321"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "doggie_board"
 				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/64e74d8d-15e7-49a6-a99b-9f52cddf6628"
 					(reference "C15")
@@ -3675,6 +3813,12 @@
 			(uuid "4ebadf8b-a4f1-4f45-8401-3c2e21eec58d")
 		)
 		(instances
+			(project "buck5v"
+				(path "/45bff242-0d9b-4726-901e-ccb01efc2321"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "doggie_board"
 				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/64e74d8d-15e7-49a6-a99b-9f52cddf6628"
 					(reference "#PWR026")
@@ -3741,6 +3885,12 @@
 			(uuid "9737d15c-300d-413c-ad4f-fcfdd08ee401")
 		)
 		(instances
+			(project "buck5v"
+				(path "/45bff242-0d9b-4726-901e-ccb01efc2321"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "doggie_board"
 				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/64e74d8d-15e7-49a6-a99b-9f52cddf6628"
 					(reference "#PWR023")
@@ -3807,6 +3957,12 @@
 			(uuid "7d8ffb85-3b52-4be2-919e-25257b9862f9")
 		)
 		(instances
+			(project "buck5v"
+				(path "/45bff242-0d9b-4726-901e-ccb01efc2321"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/64e74d8d-15e7-49a6-a99b-9f52cddf6628"
 					(reference "#PWR022")
@@ -3880,6 +4036,12 @@
 			(uuid "f6c53699-e8e2-4095-aa0b-efb88370b16a")
 		)
 		(instances
+			(project "buck5v"
+				(path "/45bff242-0d9b-4726-901e-ccb01efc2321"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/64e74d8d-15e7-49a6-a99b-9f52cddf6628"
 					(reference "J7")
@@ -3950,6 +4112,12 @@
 			(uuid "1040e549-8c6a-4b39-8277-5c37e09b91c7")
 		)
 		(instances
+			(project "buck5v"
+				(path "/45bff242-0d9b-4726-901e-ccb01efc2321"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "doggie_board"
 				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/64e74d8d-15e7-49a6-a99b-9f52cddf6628"
 					(reference "R21")
@@ -3958,4 +4126,10 @@
 			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
