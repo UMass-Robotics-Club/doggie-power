@@ -3142,6 +3142,16 @@
 		)
 		(uuid "fc1840d3-d36e-495c-8fdf-4526b64b7491")
 	)
+	(label "high_fet"
+		(at 100.33 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0f1f3d6f-0ebf-4fe7-84a1-8f5a1e20e8a3")
+	)
 	(label "VDDA"
 		(at 43.18 41.91 180)
 		(effects
@@ -3161,6 +3171,16 @@
 			(justify right bottom)
 		)
 		(uuid "4cc3e5d1-6f58-4c77-873a-9d8187964b06")
+	)
+	(label "low_fet"
+		(at 95.25 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4dca6885-8181-48ad-ae36-4c6012307cf3")
 	)
 	(label "RT"
 		(at 19.05 17.78 180)
@@ -3212,6 +3232,16 @@
 		)
 		(uuid "9baf4cba-91cd-4d64-abe3-45ad7f9268b1")
 	)
+	(label "sense"
+		(at 134.62 49.53 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b02033f3-bb5d-4990-981e-d72ede0fe603")
+	)
 	(label "RT"
 		(at 43.18 46.99 180)
 		(effects
@@ -3221,6 +3251,16 @@
 			(justify right bottom)
 		)
 		(uuid "b94272e2-07fe-4a05-a3d6-3c50ed20e1a1")
+	)
+	(label "switch 12v"
+		(at 95.25 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d914d8cc-3cef-4090-9c17-f9ef23f07767")
 	)
 	(global_label "12V_PG"
 		(shape input)
