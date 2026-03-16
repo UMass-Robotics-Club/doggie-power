@@ -1734,7 +1734,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_BarrelJack:BarrelJack_CUI_PJ-079BH_Horizontal"
+		(property "Footprint" "footprints:CUI_PJ-037A"
 			(at 147.32 25.4 0)
 			(effects
 				(font
@@ -3963,7 +3963,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_BarrelJack:BarrelJack_CUI_PJ-079BH_Horizontal"
+		(property "Footprint" "footprints:CUI_PJ-037A"
 			(at 71.12 26.67 0)
 			(effects
 				(font
