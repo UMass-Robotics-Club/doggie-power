@@ -1243,31 +1243,42 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_SPST"
+		(symbol "SLW-129956-4A-RA-N-D:SLW-129956-4A-RA-N-D"
 			(pin_names
-				(offset 0)
-				(hide yes)
+				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 3.175 0)
+			(property "Reference" "S"
+				(at -2.54 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Value" "SW_SPST"
-				(at 0 -2.54 0)
+			(property "Value" "SLW-129956-4A-RA-N-D"
+				(at -2.54 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "SLW-129956-4A-RA-N-D:SW_SLW-129956-4A-RA-N-D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1276,7 +1287,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1285,30 +1296,53 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Single Pole Single Throw (SPST) switch"
+			(property "PARTREV" "1.01"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "switch lever"
+			(property "STANDARD" "Manufacturer Recommendations"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(symbol "SW_SPST_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "6.3mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Same Sky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "SLW-129956-4A-RA-N-D_0_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -5.08 0)
+					)
 					(stroke
-						(width 0)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -1317,10 +1351,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.524 0.254) (xy 1.524 1.778)
+						(xy -2.54 0) (xy 2.794 2.1336)
 					)
 					(stroke
-						(width 0)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -1328,50 +1362,101 @@
 					)
 				)
 				(circle
-					(center 2.032 0)
-					(radius 0.508)
+					(center 2.54 2.54)
+					(radius 0.3302)
 					(stroke
-						(width 0)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-			)
-			(symbol "SW_SPST_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+				(circle
+					(center 2.54 -2.54)
+					(radius 0.3302)
+					(stroke
+						(width 0.1524)
+						(type default)
 					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 2.921 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 2.921 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
+					(at -7.62 0 0)
 					(length 2.54)
-					(name "B"
+					(name "~"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -2885,16 +2970,6 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 77.47) (xy 27.94 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2df93da1-11f4-4b98-9076-f76360901c2f")
-	)
-	(wire
-		(pts
 			(xy 78.74 90.17) (xy 78.74 88.9)
 		)
 		(stroke
@@ -3525,7 +3600,7 @@
 	)
 	(global_label "ps_sw"
 		(shape input)
-		(at 26.67 77.47 180)
+		(at 22.86 74.93 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3535,7 +3610,7 @@
 		)
 		(uuid "04c1bedc-0669-4ec3-b502-3f31825c826a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 18.1815 77.47 0)
+			(at 14.3715 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5115,6 +5190,118 @@
 		)
 	)
 	(symbol
+		(lib_id "SLW-129956-4A-RA-N-D:SLW-129956-4A-RA-N-D")
+		(at 30.48 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "489830e2-85a3-43cf-9240-595b8ccfcc0c")
+		(property "Reference" "S1"
+			(at 30.48 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SLW-129956-4A-RA-N-D"
+			(at 30.48 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:SW_SLW-129956-4A-RA-N-D"
+			(at 30.48 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 30.48 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "1.01"
+			(at 30.48 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 30.48 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "6.3mm"
+			(at 30.48 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Same Sky"
+			(at 30.48 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ca49296-f425-4a04-bc79-d80a63876ff0")
+		)
+		(pin "2"
+			(uuid "d10f7b6d-a52f-490f-aa6f-e6f6346307c7")
+		)
+		(pin "3"
+			(uuid "64b79525-716c-4cd5-a73d-fd7aacd41726")
+		)
+		(instances
+			(project ""
+				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/7e8758ce-fdca-4bb6-a847-f546f03772b9"
+					(reference "S1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 31.75 43.18 0)
 		(unit 1)
@@ -6396,74 +6583,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 33.02 77.47 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "92b73df3-2426-4bc2-9d53-7fdb7bca935e")
-		(property "Reference" "SW1"
-			(at 33.02 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_SPST"
-			(at 33.02 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
-			(at 33.02 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 33.02 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 33.02 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d9312f1b-dcd9-4c9c-9917-1438e77b7e2d")
-		)
-		(pin "1"
-			(uuid "43849f87-d35e-475d-9aa3-0603342433e5")
-		)
-		(instances
-			(project "doggie_board"
-				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/7e8758ce-fdca-4bb6-a847-f546f03772b9"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 35.56 91.44 0)
 		(unit 1)
@@ -6996,6 +7115,73 @@
 			(project "doggie_board"
 				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/7e8758ce-fdca-4bb6-a847-f546f03772b9"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 38.1 72.39 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d02f9df7-6465-4174-86a2-ca31a6fac893")
+		(property "Reference" "#PWR0100"
+			(at 44.45 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 41.91 72.3899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 38.1 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f9b891a1-868d-4ded-97d1-e220ac1e60b1")
+		)
+		(instances
+			(project "doggie_board"
+				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/7e8758ce-fdca-4bb6-a847-f546f03772b9"
+					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
