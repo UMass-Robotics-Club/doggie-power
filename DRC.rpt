@@ -1,0 +1,98 @@
+** Drc report for doggie_board.kicad_pcb **
+** Created on 2026-03-17T17:59:13-0400 **
+
+** Found 28 DRC violations **
+[via_diameter]: Via diameter (board setup constraints min diameter 0.4000 mm; actual 0.3000 mm)
+    Rule: netclass 'Default'; error
+    @(96.0250 mm, 125.5250 mm): Via [GND] on F.Cu - B.Cu
+[via_diameter]: Via diameter (board setup constraints min diameter 0.4000 mm; actual 0.3000 mm)
+    Rule: netclass 'Default'; error
+    @(92.2500 mm, 126.3250 mm): Via [/12v Buck Converter/VDDA] on F.Cu - B.Cu
+[via_diameter]: Via diameter (board setup constraints min diameter 0.4000 mm; actual 0.3000 mm)
+    Rule: netclass 'Default'; error
+    @(101.7000 mm, 118.9250 mm): Via [/12v Buck Converter/VDDA] on F.Cu - B.Cu
+[via_diameter]: Via diameter (board setup constraints min diameter 0.4000 mm; actual 0.3000 mm)
+    Rule: netclass 'Default'; error
+    @(117.9750 mm, 153.0000 mm): Via [+12V] on F.Cu - B.Cu
+[via_diameter]: Via diameter (board setup constraints min diameter 0.4000 mm; actual 0.3000 mm)
+    Rule: netclass 'Default'; error
+    @(75.7000 mm, 107.5000 mm): Via [Net-(Q5-Pad1)] on F.Cu - B.Cu
+[via_diameter]: Via diameter (board setup constraints min diameter 0.4000 mm; actual 0.3000 mm)
+    Rule: netclass 'Default'; error
+    @(75.7000 mm, 109.8000 mm): Via [Net-(Q6-Pad1)] on F.Cu - B.Cu
+[via_diameter]: Via diameter (board setup constraints min diameter 0.4000 mm; actual 0.3000 mm)
+    Rule: netclass 'Default'; error
+    @(57.0000 mm, 136.8000 mm): Via [Net-(Q6-Pad1)] on F.Cu - B.Cu
+[via_diameter]: Via diameter (board setup constraints min diameter 0.4000 mm; actual 0.3000 mm)
+    Rule: netclass 'Default'; error
+    @(101.6432 mm, 120.8207 mm): Via [12V_PG] on F.Cu - B.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(106.4000 mm, 107.2000 mm): Zone [GND] on F.Cu, priority 6
+    @(109.3250 mm, 106.1500 mm): Pad 2 [GND] of Ct1 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(106.4000 mm, 107.2000 mm): Zone [GND] on F.Cu, priority 6
+    @(107.2000 mm, 107.0000 mm): Pad 5 [GND] of U1 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(39.6000 mm, 38.6000 mm): Zone [GND] on F.Cu, In1.Cu and In2.Cu, priority 1
+    @(137.0125 mm, 73.8000 mm): Pad 2 [GND] of R2 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(39.6000 mm, 38.6000 mm): Zone [GND] on F.Cu, In1.Cu and In2.Cu, priority 1
+    @(82.1125 mm, 129.4125 mm): Pad 2 [GND] of R26 on F.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual -0.0750 mm)
+    Rule: board setup constraints; error
+    @(96.0250 mm, 125.5250 mm): Via [GND] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual -0.0750 mm)
+    Rule: board setup constraints; error
+    @(92.2500 mm, 126.3250 mm): Via [/12v Buck Converter/VDDA] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual -0.0750 mm)
+    Rule: board setup constraints; error
+    @(101.7000 mm, 118.9250 mm): Via [/12v Buck Converter/VDDA] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual -0.0750 mm)
+    Rule: board setup constraints; error
+    @(117.9750 mm, 153.0000 mm): Via [+12V] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual -0.0750 mm)
+    Rule: board setup constraints; error
+    @(75.7000 mm, 107.5000 mm): Via [Net-(Q5-Pad1)] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual -0.0750 mm)
+    Rule: board setup constraints; error
+    @(75.7000 mm, 109.8000 mm): Via [Net-(Q6-Pad1)] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual -0.0750 mm)
+    Rule: board setup constraints; error
+    @(57.0000 mm, 136.8000 mm): Via [Net-(Q6-Pad1)] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual -0.0750 mm)
+    Rule: board setup constraints; error
+    @(101.6432 mm, 120.8207 mm): Via [12V_PG] on F.Cu - B.Cu
+[isolated_copper]: Isolated copper fill
+    Local override; warning
+    @(39.6000 mm, 38.6000 mm): Zone [GND] on F.Cu, In1.Cu and In2.Cu, priority 1
+[isolated_copper]: Isolated copper fill
+    Local override; warning
+    @(39.6000 mm, 38.6000 mm): Zone [GND] on F.Cu, In1.Cu and In2.Cu, priority 1
+[isolated_copper]: Isolated copper fill
+    Local override; warning
+    @(39.6000 mm, 38.6000 mm): Zone [GND] on F.Cu, In1.Cu and In2.Cu, priority 1
+[isolated_copper]: Isolated copper fill
+    Local override; warning
+    @(39.6000 mm, 38.6000 mm): Zone [GND] on F.Cu, In1.Cu and In2.Cu, priority 1
+[isolated_copper]: Isolated copper fill
+    Local override; warning
+    @(39.6000 mm, 38.6000 mm): Zone [GND] on F.Cu, In1.Cu and In2.Cu, priority 1
+[isolated_copper]: Isolated copper fill
+    Local override; warning
+    @(39.6000 mm, 38.6000 mm): Zone [GND] on F.Cu, In1.Cu and In2.Cu, priority 1
+[isolated_copper]: Isolated copper fill
+    Local override; warning
+    @(39.6000 mm, 38.6000 mm): Zone [GND] on F.Cu, In1.Cu and In2.Cu, priority 1
+[isolated_copper]: Isolated copper fill
+    Local override; warning
+    @(39.6000 mm, 38.6000 mm): Zone [GND] on F.Cu, In1.Cu and In2.Cu, priority 1
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **
