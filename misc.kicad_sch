@@ -5,6 +5,131 @@
 	(uuid "8640326a-727f-4d6f-b236-33bc1279bfa1")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Device:R_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers
 				(hide yes)
@@ -690,6 +815,32 @@
 			(embedded_fonts no)
 		)
 	)
+	(junction
+		(at 53.34 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c981d31-5606-4c27-ae20-826919cc7fd7")
+	)
+	(wire
+		(pts
+			(xy 53.34 100.33) (xy 53.34 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ed065e9-3a45-4e45-832f-bc43a7801181")
+	)
+	(wire
+		(pts
+			(xy 53.34 99.06) (xy 53.34 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d3d4502-5681-4758-bcf5-a4f78746b453")
+	)
 	(global_label "48_RAW"
 		(shape input)
 		(at 123.19 44.45 270)
@@ -709,6 +860,98 @@
 				)
 				(justify right)
 				(hide yes)
+			)
+		)
+	)
+	(global_label "48_RAW"
+		(shape input)
+		(at 53.34 93.98 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f525e7a7-a7e3-451a-af5b-02cfb950e27e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 53.34 83.7982 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 53.34 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0dd27f23-ea4d-4bb2-9e0f-1300e3f42f90")
+		(property "Reference" "R20"
+			(at 55.88 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "20k"
+			(at 55.88 105.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 53.34 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 53.34 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "eb4d53b5-8e04-4ad7-ab0e-c86dda81cedd")
+		)
+		(pin "1"
+			(uuid "e122e813-ecdb-4ed1-b734-68cd80e254d3")
+		)
+		(instances
+			(project "doggie_board"
+				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/db50864b-d0ce-471a-9561-ff2a2bd93fe3"
+					(reference "R20")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -1176,6 +1419,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 53.34 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "78bab6f9-5151-4f3c-87fc-d6d38b5c123f")
+		(property "Reference" "R19"
+			(at 55.88 95.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "270k"
+			(at 55.88 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 53.34 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 53.34 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "52e44074-a7c6-4eab-81bb-1b1a8b684338")
+		)
+		(pin "1"
+			(uuid "c562cc3f-7854-42c3-9eed-37bdd952a42b")
+		)
+		(instances
+			(project "doggie_board"
+				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/db50864b-d0ce-471a-9561-ff2a2bd93fe3"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 138.43 71.12 180)
 		(unit 1)
@@ -1575,6 +1888,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 53.34 100.33 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d193e5a1-0537-4351-a5fe-3a21317f5cf3")
+		(property "Reference" "#PWR096"
+			(at 49.53 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V_LP"
+			(at 57.15 100.3299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 53.34 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d75401b-4524-4b38-981e-a54aa18e0894")
+		)
+		(instances
+			(project "doggie_board"
+				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/db50864b-d0ce-471a-9561-ff2a2bd93fe3"
+					(reference "#PWR096")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 138.43 71.12 0)
 		(unit 1)
@@ -1701,6 +2081,72 @@
 			(project "doggie_board"
 				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/db50864b-d0ce-471a-9561-ff2a2bd93fe3"
 					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 53.34 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e9e6d2f5-6599-4cc1-8014-2cf39a930c58")
+		(property "Reference" "#PWR023"
+			(at 53.34 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 53.34 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 53.34 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9737d15c-300d-413c-ad4f-fcfdd08ee401")
+		)
+		(instances
+			(project "doggie_board"
+				(path "/883cb7fa-3eb5-48d4-9cde-7c11307d94f0/db50864b-d0ce-471a-9561-ff2a2bd93fe3"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
