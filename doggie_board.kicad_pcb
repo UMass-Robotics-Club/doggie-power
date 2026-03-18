@@ -6796,15 +6796,15 @@
 			(uuid "f0000e27-cad5-4ff3-83a0-46bd45cc648b")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_AMASS.3dshapes/AMASS_XT30PW-M_1x02_P2.50mm_Horizontal.step"
+		(model "${KIPRJMOD}/models/XT30PW-M.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -2.5 10 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -8498,17 +8498,6 @@
 			(uuid "5da60bc9-7fed-4119-847f-dd357b449882")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_AMASS.3dshapes/AMASS_XT30PW-M_1x02_P2.50mm_Horizontal.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 		(model "${KIPRJMOD}/models/XT30PW-M.step"
 			(offset
 				(xyz -2.5 10 0)
@@ -8937,15 +8926,15 @@
 			(uuid "9b724467-0b70-4646-9bd3-7733e70bff69")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_AMASS.3dshapes/AMASS_XT30PW-M_1x02_P2.50mm_Horizontal.step"
+		(model "${KIPRJMOD}/models/XT30PW-M.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -2.5 10 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -13903,7 +13892,7 @@
 			)
 		)
 		(fp_text user "-"
-			(at -5 3.2 180)
+			(at -5 3.2 0)
 			(layer "F.SilkS")
 			(uuid "b9e7e8f7-d95b-4afc-b0f1-71e8f9f3820c")
 			(effects
@@ -13964,15 +13953,15 @@
 			(uuid "df78a75c-1113-4886-884a-a8195427e601")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_AMASS.3dshapes/AMASS_XT30PW-M_1x02_P2.50mm_Horizontal.step"
+		(model "${KIPRJMOD}/models/XT30PW-M.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -2.5 10 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -15756,15 +15745,15 @@
 			(uuid "d4dd59e6-d016-4c2b-90c8-7731c6c8216e")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_AMASS.3dshapes/AMASS_XT30PW-M_1x02_P2.50mm_Horizontal.step"
+		(model "${KIPRJMOD}/models/XT30PW-M.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -2.5 10 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -18921,18 +18910,6 @@
 			(uuid "1345449d-b063-4314-88fa-30271d85dd97")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_AMASS.3dshapes/AMASS_XT30PW-M_1x02_P2.50mm_Horizontal.step"
-			(hide yes)
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -90)
-			)
-		)
 		(model "${KIPRJMOD}/models/XT30PW-M.step"
 			(offset
 				(xyz -2.5 10 0)
@@ -20208,15 +20185,15 @@
 			(uuid "b1aa5525-a0bc-4c52-bd64-8ecdeb2daf35")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_AMASS.3dshapes/AMASS_XT30PW-M_1x02_P2.50mm_Horizontal.step"
+		(model "${KIPRJMOD}/models/XT30PW-M.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -2.5 10 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -20943,7 +20920,7 @@
 			)
 		)
 		(property "Value" "48v"
-			(at 3.7 -4.8 180)
+			(at 3.7 -4.8 0)
 			(layer "F.Fab")
 			(uuid "cd66ede8-78bf-489e-b687-33325c974c1d")
 			(effects
@@ -21269,7 +21246,7 @@
 			(uuid "bfd83bda-3f4e-46bf-bc76-98e390f68516")
 		)
 		(fp_text user "-"
-			(at -5.2 3.2 180)
+			(at -5.2 3.2 0)
 			(layer "F.SilkS")
 			(uuid "4d0552eb-1803-4bc7-802a-ce2a9bdcd5f2")
 			(effects
@@ -21341,15 +21318,15 @@
 			(uuid "10bb8b4a-187d-45f9-b061-f58d08525718")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_AMASS.3dshapes/AMASS_XT30PW-M_1x02_P2.50mm_Horizontal.step"
+		(model "${KIPRJMOD}/models/XT30PW-M.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -2.5 10 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -21911,15 +21888,15 @@
 			(uuid "880cd1eb-7a04-43b2-9393-ce7b18fb1647")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_AMASS.3dshapes/AMASS_XT30PW-M_1x02_P2.50mm_Horizontal.step"
+		(model "${KIPRJMOD}/models/XT30PW-M.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -2.5 10 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -23821,15 +23798,15 @@
 			(uuid "5b1291f6-c837-467f-b021-edf0c3d6a81e")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_AMASS.3dshapes/AMASS_XT30PW-M_1x02_P2.50mm_Horizontal.step"
+		(model "${KIPRJMOD}/models/XT30PW-M.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -2.5 10 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -25649,7 +25626,7 @@
 			)
 		)
 		(fp_text user "-"
-			(at -5.2 3.4 180)
+			(at -5.2 3.4 0)
 			(layer "F.SilkS")
 			(uuid "e412fbfb-81cb-4729-911a-6eb615951568")
 			(effects
@@ -25710,15 +25687,15 @@
 			(uuid "453bf49a-d03f-43eb-9735-e78ac04892a6")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_AMASS.3dshapes/AMASS_XT30PW-M_1x02_P2.50mm_Horizontal.step"
+		(model "${KIPRJMOD}/models/XT30PW-M.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -2.5 10 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -28225,7 +28202,7 @@
 			(uuid "1367512f-808e-4365-b69d-261ab926452e")
 		)
 		(fp_text user "-"
-			(at -5.4 3.2 180)
+			(at -5.4 3.2 0)
 			(layer "F.SilkS")
 			(uuid "e4d45c95-6b4d-4ed6-9d53-ce05c3f073c7")
 			(effects
@@ -28297,15 +28274,15 @@
 			(uuid "0b90fa89-39ff-4892-9125-3ec42956dd5a")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_AMASS.3dshapes/AMASS_XT30PW-M_1x02_P2.50mm_Horizontal.step"
+		(model "${KIPRJMOD}/models/XT30PW-M.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -2.5 10 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
