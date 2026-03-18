@@ -29658,7 +29658,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Made by: Niranjan Mathirajan, Siddharth Vasudevan, Alperen Ozpolat"
+	(gr_text "Made by: Niranjan Mathirajan, Alperen Ozpolat, Siddharth Vasudevan."
 		(at 65.2 43.8 0)
 		(layer "F.SilkS")
 		(uuid "623c70f9-1485-4e1d-b6f5-25248f18d466")
