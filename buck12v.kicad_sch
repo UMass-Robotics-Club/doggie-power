@@ -4337,7 +4337,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:QFN50P550X350X100-25N"
+		(property "Footprint" "footprints:LM5148RGYR"
 			(at 63.5 52.07 0)
 			(effects
 				(font
